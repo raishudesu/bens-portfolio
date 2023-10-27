@@ -14,7 +14,9 @@ const Header = () => {
           <Atom color="#16BC25" />
           bens
         </Link>
-        <NavMenu />
+        <div className="hidden md:block">
+          <NavMenu />
+        </div>
         <ModeToggle />
       </div>
     </header>

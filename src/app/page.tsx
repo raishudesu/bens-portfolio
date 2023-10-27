@@ -1,5 +1,6 @@
 import Hero from "@/components/Hero";
 import Team from "@/components/Team";
+import { motion } from "framer-motion";
 
 export default function Home() {
   return (
