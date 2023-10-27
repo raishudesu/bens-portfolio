@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "../styles/globals.css";
-import PageWrapper from "@/components/PageWrapper";
 import Header from "@/components/Header";
 import { ThemeProvider } from "@/components/theme-provider";
 import Footer from "@/components/Footer";
+import Prev from "@/components/Prev";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -28,7 +28,8 @@ export default function RootLayout({
         >
           <Header />
           <main className="min-h-screen overflow-hidden p-6">
-            <PageWrapper>{children}</PageWrapper>
+            <Prev />
+            {children}
           </main>
           <Footer />
         </ThemeProvider>

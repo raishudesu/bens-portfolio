@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 import {
   Card,
@@ -9,16 +11,20 @@ import {
 } from "./ui/card";
 import Image, { StaticImageData } from "next/image";
 import { Button } from "./ui/button";
+import { useRouter } from "next/navigation";
 
 const MyCard = ({
   title,
   author,
   image,
+  link,
 }: {
   title: string;
   author: string;
   image: StaticImageData;
+  link: string;
 }) => {
+  const router = useRouter();
   return (
     <Card className="max-w-[600px]">
       <CardHeader>
@@ -33,7 +39,7 @@ const MyCard = ({
         />
       </CardContent>
       <CardFooter className="flex justify-center">
-        <Button>View</Button>
+        <Button onClick={() => router.push(link)}>View</Button>
       </CardFooter>
     </Card>
   );
