@@ -10,7 +10,7 @@ import {
 import { useEffect } from "react";
 
 const ScrollToTopContainerVariants: Variants = {
-  hide: { opacity: 0, y: 10 },
+  hide: { opacity: 0, y: 5 },
   show: { opacity: 1, y: 0 },
 };
 

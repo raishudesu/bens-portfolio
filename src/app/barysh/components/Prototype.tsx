@@ -33,7 +33,7 @@ const Prototype = () => {
         ))}
       </ul>
       <Snapshot />
-      <h4 className="scroll-m-20 text-xl font-semibold tracking-tight">
+      <h4 className="scroll-m-20 text-xl font-semibold tracking-tight mt-3">
         Test our prototype!
       </h4>
       <p className="leading-7 [&:not(:first-child)]:mt-6">

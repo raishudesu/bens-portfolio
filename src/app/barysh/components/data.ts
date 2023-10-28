@@ -33,6 +33,11 @@ export const libraries = [
       "Our application relies on MongoDB Atlas, a reliable cloud-based database, ensuring scalability, flexibility, and high data security.",
   },
   {
+    library: "Firebase Storage",
+    content:
+      "We utilize Firebase Storage for storing and managing learning materials, providing a secure and scalable solution for easy access to educational resources.",
+  },
+  {
     library: "ODM (Object Data Modeling)",
     content:
       "We use Mongoose, an ODM library for MongoDB, to simplify database interactions and schema management, enhancing the efficiency of our application.",
@@ -76,11 +81,6 @@ export const libraries = [
     library: "OpenAI API",
     content:
       "We also utilize the OpenAI API for specific functionality, enhancing the capabilities of our application.",
-  },
-  {
-    library: "Firebase Storage",
-    content:
-      "We utilize Firebase Storage for storing and managing learning materials, providing a secure and scalable solution for easy access to educational resources.",
   },
 ];
 
