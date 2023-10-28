@@ -1,6 +1,6 @@
 import Image from "next/image";
 import HeroImg from "../assets/hero.svg";
-import { Button } from "./ui/button";
+import ExploreBtn from "./ExploreBtn";
 
 const Hero = () => {
   return (
@@ -12,7 +12,7 @@ const Hero = () => {
         <p className="leading-7">
           Elevate user interaction and design expertise.
         </p>
-        <Button className="self-start">Explore</Button>
+        <ExploreBtn />
       </div>
       <div className="flex justify-end">
         <Image
