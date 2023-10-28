@@ -78,7 +78,7 @@ const Prototype = () => {
         user-interface design. Try it by clicking{" "}
         <Link
           href={"https://site-learn.vercel.app"}
-          className="text-[#16BC25] font-semibold hover:underline"
+          className="text-[#2563eb] font-semibold hover:underline"
         >
           here
         </Link>

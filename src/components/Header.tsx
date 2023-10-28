@@ -11,7 +11,7 @@ const Header = () => {
           href={"/"}
           className="flex items-center gap-1 scroll-m-20 text-2xl font-bold tracking-tight transition-colors first:mt-0"
         >
-          <Atom color="#16BC25" />
+          <Atom color="#2563eb" />
           bens
         </Link>
         <div className="hidden md:block">

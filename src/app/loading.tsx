@@ -5,7 +5,7 @@ const Loading = () => {
   return (
     <main className="min-h-[80vh] flex justify-center items-center">
       <div className="animate-spin">
-        <Loader color="#16BC25" />
+        <Loader color="#2563eb" />
       </div>
     </main>
   );
