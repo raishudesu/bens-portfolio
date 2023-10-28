@@ -10,11 +10,11 @@ const Snapshot = () => {
       <h3 className="scroll-m-20 text-2xl font-semibold tracking-tight mt-6">
         Application snapshots
       </h3>
-      <div className="flex flex-col gap-6 mt-3">
+      <div className="flex flex-col gap-12 mt-3">
         <figure className="flex flex-col items-center">
           <Image src={home} alt="sitex-home" className="shadow-md rounded-lg" />
           <figcaption className="text-muted-foreground text-sm">
-            SITEX homepage
+            SITEX home page
           </figcaption>
         </figure>
         <figure className="flex flex-col items-center">

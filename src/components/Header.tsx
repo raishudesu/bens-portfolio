@@ -2,6 +2,7 @@ import Link from "next/link";
 import { ModeToggle } from "./ModeToggle";
 import { Atom } from "lucide-react";
 import NavMenu from "./NavMenu";
+import Sidebar from "./Sidebar";
 
 const Header = () => {
   return (
@@ -17,7 +18,12 @@ const Header = () => {
         <div className="hidden md:block">
           <NavMenu />
         </div>
-        <ModeToggle />
+        <div className="hidden md:block">
+          <ModeToggle />
+        </div>
+        <div className="md:hidden">
+          <Sidebar />
+        </div>
       </div>
     </header>
   );

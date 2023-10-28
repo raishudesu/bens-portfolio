@@ -8,6 +8,8 @@ import {
   motion,
 } from "framer-motion";
 import { useEffect } from "react";
+import { ModeToggle } from "./ModeToggle";
+import { Button } from "./ui/button";
 
 const ScrollToTopContainerVariants: Variants = {
   hide: { opacity: 0, y: 5 },
@@ -35,15 +37,17 @@ const ScrollToTop = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   }
   return (
-    <motion.button
-      className="fixed bottom-5 right-5 p-2 bg-primary-foreground rounded-md"
+    <motion.div
+      className="fixed bottom-5 right-5 flex flex-col gap-2"
       variants={ScrollToTopContainerVariants}
       initial="hide"
       animate={controls}
-      onClick={scrollToTop}
     >
-      <ArrowUp color="#2563eb" />
-    </motion.button>
+      <ModeToggle />
+      <Button variant={"outline"} className="p-2" onClick={scrollToTop}>
+        <ArrowUp color="#2563eb" />
+      </Button>
+    </motion.div>
   );
 };
 
