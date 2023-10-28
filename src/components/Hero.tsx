@@ -10,7 +10,7 @@ const Hero = () => {
           Crafting Seamless Digital Experiences
         </h1>
         <p className="leading-7">
-          Elevating User Interaction and Design Expertise
+          Elevate user interaction and design expertise.
         </p>
         <Button className="self-start">Explore</Button>
       </div>

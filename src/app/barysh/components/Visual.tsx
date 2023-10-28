@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Sitex from "../../../assets/barysh/sitex-logo.png";
+import { themes } from "./data";
 
 const Visual = () => {
   return (
@@ -24,24 +25,9 @@ const Visual = () => {
         Key features
       </h4>
       <ul className="my-6 ml-6 list-disc [&>li]:mt-2">
-        <li>Custom themes (light and dark)</li>
-        <li>
-          All of the features of SITEX are seen at the navigation, which
-          addresses the pain points of the problem by learning through
-          collaboration, viewing materials, open forums and AI assistance
-        </li>
-        <li>
-          By default, non-signed in users can view the Blogs and Forums page,
-          but will not able to interact with it such as commenting and liking
-          the content unless they register and sign in. The primary button “Get
-          started” brings the user to the registration page, so that they can
-          start using the full features of the application.
-        </li>
-        <li>
-          After signing in, the user will be redirected to user dashboard. Users
-          can create blogs, post forums, upload pdf materials, use the AI
-          Assistant and start collaborating with other users.
-        </li>
+        {themes.map((theme, index) => (
+          <li key={index}>{theme}</li>
+        ))}
       </ul>
     </>
   );

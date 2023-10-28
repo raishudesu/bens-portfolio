@@ -18,7 +18,7 @@ const Prev = () => {
           className="p-2 rounded-full"
           onClick={() => router.back()}
         >
-          <ArrowLeft />
+          <ArrowLeft color="#2563eb" />
         </Button>
       </div>
     </section>
