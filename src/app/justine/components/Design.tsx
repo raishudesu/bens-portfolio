@@ -8,9 +8,9 @@ const Design = () => {
         Design solutions
       </h3>
       <ul className="my-6 ml-6 list-disc [&>li]:mt-2">
-        {solutions.map(({ design, solution }, index) => (
+        {solutions.map(({ feature, description }, index) => (
           <li key={index}>
-            <span className="font-bold">{design}</span>: {solution}
+            <span className="font-bold">{feature}</span>: {description}
           </li>
         ))}
       </ul>

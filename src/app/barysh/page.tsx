@@ -4,6 +4,11 @@ import PStatement from "./components/PStatement";
 import Prototype from "./components/Prototype";
 import Role from "./components/Role";
 import Visual from "./components/Visual";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Bens | SITEX",
+};
 
 const BaryshPage = () => {
   return (
