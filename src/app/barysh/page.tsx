@@ -13,9 +13,13 @@ const BaryshPage = () => {
           <h2 className="mt-10 scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight transition-colors first:mt-0">
             SITE Experience (SITEX): AI Enhanced Community Learning Platform
           </h2>
-          <p className="leading-7 [&:not(:first-child)]:mt-6 text-muted-foreground">
+          <p className="leading-7 [&:not(:first-child)]:mt-3 text-muted-foreground">
             by: Barysh Nikov Bacaltos
           </p>
+          <p className="leading-7 [&:not(:first-child)]:mt-3 text-muted-foreground">
+            last updated: 28/10/2023
+          </p>
+
           <Role />
           <PStatement />
           <Design />
