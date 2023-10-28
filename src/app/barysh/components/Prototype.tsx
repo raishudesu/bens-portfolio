@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { features, libraries } from "./data";
+import Snapshot from "./Snapshot";
 
 const Prototype = () => {
   return (
@@ -31,6 +32,7 @@ const Prototype = () => {
           </li>
         ))}
       </ul>
+      <Snapshot />
       <h4 className="scroll-m-20 text-xl font-semibold tracking-tight">
         Test our prototype!
       </h4>
@@ -38,7 +40,8 @@ const Prototype = () => {
         The live prototype of SITEX offers pre-registration and its visual
         user-interface design. Try it by clicking{" "}
         <Link
-          href={"https://site-learn.vercel.app"}
+          href={"https://site-learn-git-test-raishudesu.vercel.app"}
+          target="_blank"
           className="text-[#2563eb] font-semibold hover:underline"
         >
           here

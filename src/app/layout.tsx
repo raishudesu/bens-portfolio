@@ -5,6 +5,7 @@ import Header from "@/components/Header";
 import { ThemeProvider } from "@/components/theme-provider";
 import Footer from "@/components/Footer";
 import Prev from "@/components/Prev";
+import ScrollToTop from "@/components/ScrollToTop";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -30,6 +31,7 @@ export default function RootLayout({
           <main className="min-h-screen overflow-hidden p-6">
             <Prev />
             {children}
+            <ScrollToTop />
           </main>
           <Footer />
         </ThemeProvider>

@@ -15,7 +15,7 @@ const Prev = () => {
       <div className="w-full max-w-screen-lg">
         <Button
           variant={"outline"}
-          className="p-2 rounded-full"
+          className="p-2"
           onClick={() => router.back()}
         >
           <ArrowLeft color="#2563eb" />
