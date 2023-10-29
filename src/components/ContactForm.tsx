@@ -1,5 +1,6 @@
 "use client";
 
+import { useState } from "react";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useForm } from "react-hook-form";
 import * as z from "zod";
@@ -17,6 +18,7 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "./ui/textarea";
 import { emailSubmit } from "@/stores/useEmail";
 import { toast } from "./ui/use-toast";
+import { Loader } from "lucide-react";
 
 const formSchema = z.object({
   email: z
@@ -29,6 +31,7 @@ const formSchema = z.object({
 });
 
 const ContactForm = () => {
+  const [loading, setLoading] = useState(false);
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
     defaultValues: {
@@ -37,12 +40,14 @@ const ContactForm = () => {
     },
   });
   async function onSubmit(values: z.infer<typeof formSchema>) {
+    setLoading(true);
     await emailSubmit(values);
     form.reset();
     toast({
       title: "Submitted!",
       description: "We will get back to you as soon as possible.",
     });
+    setLoading(false);
   }
 
   return (
@@ -58,7 +63,11 @@ const ContactForm = () => {
             <FormItem>
               <FormLabel>Email</FormLabel>
               <FormControl>
-                <Input placeholder="bens@gmail.com" {...field} />
+                <Input
+                  placeholder="bens@gmail.com"
+                  {...field}
+                  disabled={loading}
+                />
               </FormControl>
               <FormMessage />
             </FormItem>
@@ -71,14 +80,28 @@ const ContactForm = () => {
             <FormItem>
               <FormLabel>Username</FormLabel>
               <FormControl>
-                <Textarea placeholder="Your message goes here" {...field} />
+                <Textarea
+                  placeholder="Your message goes here"
+                  {...field}
+                  disabled={loading}
+                />
               </FormControl>
               <FormMessage />
             </FormItem>
           )}
         />
-        <Button type="submit" className="self-stretch md:self-center">
-          Submit
+        <Button
+          type="submit"
+          disabled={loading}
+          className="self-stretch md:self-center"
+        >
+          {loading ? (
+            <div className="animate-spin">
+              <Loader />
+            </div>
+          ) : (
+            <>Submit</>
+          )}
         </Button>
       </form>
     </Form>
