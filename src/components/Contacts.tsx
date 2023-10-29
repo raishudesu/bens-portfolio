@@ -3,7 +3,10 @@ import ContactForm from "./ContactForm";
 const Contacts = () => {
   return (
     <>
-      <h3 className="mt-8 scroll-m-20 text-2xl font-semibold tracking-tight text-center">
+      <h3
+        id="contact"
+        className="mt-8 scroll-m-20 text-2xl font-semibold tracking-tight text-center"
+      >
         Contact us
       </h3>
       <ContactForm />
