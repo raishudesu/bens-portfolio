@@ -1,26 +1,24 @@
 import PageWrapper from "@/components/PageWrapper";
-import Role from "./components/Role";
-import PStatement from "./components/PStatement";
 import Design from "./components/Design";
 import Visual from "./components/Visual";
 import Prototype from "./components/Prototype";
+import ContentHeader from "@/components/ContentHeader";
+import { header, statementContent, summaryContent } from "./components/data";
+import ProjectSummary from "@/components/ProjectSummary";
+import ProblemStatement from "@/components/ProblemStatement";
 
 const RavenPage = () => {
   return (
     <PageWrapper>
       <section className="w-full flex flex-col justify-center items-center gap-6 mt-6">
         <div className="max-w-screen-lg">
-          <h2 className="mt-10 scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight transition-colors first:mt-0">
-            Coursecrafters: A Quest for Knowledge
-          </h2>
-          <p className="leading-7 [&:not(:first-child)]:mt-3 text-muted-foreground">
-            by: Raven Salvatierra
-          </p>
-          <p className="leading-7 [&:not(:first-child)]:mt-3 text-muted-foreground">
-            last updated: 28/10/2023
-          </p>
-          <Role />
-          <PStatement />
+          <ContentHeader
+            title={header.title}
+            author={header.author}
+            lastUpdated={header.lastUpdated}
+          />
+          <ProjectSummary content={summaryContent} />
+          <ProblemStatement content={statementContent} />
           {/* <Design />
           <Visual />
           <Prototype /> */}

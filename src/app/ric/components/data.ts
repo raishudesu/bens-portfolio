@@ -71,3 +71,16 @@ export const design = [
       "Our goal is to offer an easily navigable and straightforward user experience. The design is aimed at presenting information clearly and simplistically. Users can easily find answers to questions like 'Where is the button to go to the chatbot page?' or 'Where do I type?'",
   },
 ];
+
+export const header = {
+  title:
+    "V-Companion: A Mental Health Support Chatbot for Information Technology Student in Palawan State University",
+  author: "Ric Ryan Nolasco",
+  lastUpdated: "28/10/2023",
+};
+
+export const summaryContent =
+  "This project aims to address mental health challenges among IT students by providing an accessible AI-driven chatbot. It seeks to enhance well-being and academic performance at Palawan State University by offering students a reliable and confidential platform for support and guidance, fostering mentally balanced and resilient individuals.";
+
+export const statementContent =
+  "The observed issues among IT students at Palawan State University pertain to their mental health and well-being. These problems are rooted in high stress levels, stemming from academic workloads, deadlines, personal life pressures, and unhealthy lifestyles, resulting in increased stress and anxiety. Additionally, a lack of awareness concerning their mental challenges leads some students to engage in destructive behaviors like addiction. Furthermore, limited access to professional mental health support due to financial constraints, reluctance to seek help, and the associated stigma further impedes IT students from accessing essential counseling and mental health services.";
