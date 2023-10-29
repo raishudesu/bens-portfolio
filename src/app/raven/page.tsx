@@ -8,6 +8,11 @@ import ProjectSummary from "@/components/ProjectSummary";
 import ProblemStatement from "@/components/ProblemStatement";
 import Mapping from "./components/Mapping";
 import UserFlow from "./components/UserFlow";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Bens | CourseCrafters",
+};
 
 const RavenPage = () => {
   return (

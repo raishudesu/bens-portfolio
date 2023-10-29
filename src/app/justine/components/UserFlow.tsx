@@ -8,13 +8,12 @@ const UserFlow = () => {
         User flow
       </h3>
 
-      <div className="flex flex-col gap-6 items-center mt-3">
-        <Image
-          src={userflow}
-          alt="user-flow"
-          className="shadow-md rounded-lg"
-        />
-      </div>
+      <figure className="flex flex-col items-center mt-3">
+        <Image src={userflow} alt="userflow" className="shadow-md rounded-lg" />
+        <figcaption className="text-muted-foreground text-sm">
+          User flow
+        </figcaption>
+      </figure>
     </>
   );
 };

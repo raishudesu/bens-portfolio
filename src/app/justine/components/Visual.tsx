@@ -1,4 +1,3 @@
-import { points } from "./data";
 import scheme from "../../../assets/justine/scheme.jpg";
 import Image from "next/image";
 
@@ -8,7 +7,12 @@ const Visual = () => {
       <h3 className="scroll-m-20 text-2xl font-semibold tracking-tight mt-6">
         Visual UI Design
       </h3>
-      <Image src={scheme} alt="scheme" className="shadow-md rounded-lg mt-3" />
+      <figure className="flex flex-col items-center mt-">
+        <Image src={scheme} alt="scheme" className="shadow-md rounded-lg" />
+        <figcaption className="text-muted-foreground text-sm">
+          UI design
+        </figcaption>
+      </figure>
       <h4 className="scroll-m-20 text-xl font-semibold tracking-tight mt-3">
         Color scheme
       </h4>

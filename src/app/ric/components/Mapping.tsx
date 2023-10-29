@@ -7,13 +7,12 @@ const Mapping = () => {
       <h3 className="scroll-m-20 text-2xl font-semibold tracking-tight mt-6">
         Customer journey mapping
       </h3>
-      <div className="flex justify-center mt-3">
-        <Image
-          src={mapping}
-          alt="customer-journey-mapping"
-          className="shadow-md rounded-lg"
-        />
-      </div>
+      <figure className="flex flex-col items-center mt-3">
+        <Image src={mapping} alt="mapping" className="shadow-md rounded-lg" />
+        <figcaption className="text-muted-foreground text-sm">
+          Customer journey mapping
+        </figcaption>
+      </figure>
       <p className="leading-7 [&:not(:first-child)]:mt-6">
         Within this segment of the case study, we will explore the process of
         tackling the identified pain points stemming from our predominant data

@@ -26,26 +26,13 @@ export const solutions = [
   },
 ];
 
-export const points = [
-  {
-    feature: "Anonymity",
-    description:
-      "This project is designed to prioritize anonymity, providing a safe space for those who might feel unheard. By ensuring anonymity, we aim to reduce the stigma surrounding mental healthcare, allowing users to find comfort and reassurance without fear of judgment.",
-  },
-  {
-    feature: "Mental Health Groups",
-    description:
-      "Associated with this project is a contacts page that connects users with globally and locally available mental healthcare groups. These groups can offer guidance and assistance without financial or confidence barriers, enabling users to get in touch with the support they need.",
-  },
-];
-
 export const header = {
-  title: "Coursecrafters: A Quest for Knowledge",
-  author: "Raven Salvatierra",
+  title: "DentaBook: A Digital Dental Appointment Solution",
+  author: " Justine Elorde",
   lastUpdated: "28/10/2023",
 };
 
 export const summaryContent =
-  "Coursecrafters is a website offering a blend of trivia questions, fill-in-the-blanks, and multiple-choice quizzes designed to enhance students' knowledge in their chosen fields. Recognizing the academic stress students often face, I created an app that combines entertainment and education. The website's goal is to provide students with a study break that's both enjoyable and informative, even utilizing resources like OpenAI or ChatGPT for answering challenging questions. The app features three difficulty levels, offering students challenges and providing correct answers, thus supporting their studies anytime, anywhere.";
+  "This project centers on the creation of a digital dental appointment solution aimed at streamlining the process of booking dental appointments for students at Palawan State University. The existing manual appointment system often leads to extended waiting times and uncertainty about appointment availability, causing inconvenience for students. This project was developed to address these challenges, making it easy for students to schedule dental appointments online. The primary objective is to enhance the overall dental care experience for PSU students while improving the operational efficiency of the dental clinic. Through this project, I sought to provide a user-friendly solution that simplifies clinic visits and optimizes appointment management.";
 export const statementContent =
-  "The observed issues among IT students at Palawan State University pertain to their mental health and well-being. These problems are rooted in high stress levels, stemming from academic workloads, deadlines, personal life pressures, and unhealthy lifestyles, resulting in increased stress and anxiety. Additionally, a lack of awareness concerning their mental challenges leads some students to engage in destructive behaviors like addiction. Furthermore, limited access to professional mental health support due to financial constraints, reluctance to seek help, and the associated stigma further impedes IT students from accessing essential counseling and mental health services.";
+  "The Palawan State University Dental Clinic currently operates on a first-come, first-served basis for student dental appointments, resulting in extended waiting times, uncertainty, and inefficiency. This approach hinders accessibility for students with varying schedules and has led to a preference among students for an online appointment system. Implementing such a system is expected to streamline the booking process, reduce physical queuing, and improve the overall clinic experience for students, making dental care more convenient and secure.";

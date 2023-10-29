@@ -38,8 +38,13 @@ const MyCard = ({
           className="rounded-full w-full max-w-[200px]"
         />
       </CardContent>
-      <CardFooter className="flex justify-center">
-        <Button onClick={() => router.push(link)}>View</Button>
+      <CardFooter className="flex flex-col">
+        <Button
+          className="self-stretch md:self-center"
+          onClick={() => router.push(link)}
+        >
+          View
+        </Button>
       </CardFooter>
     </Card>
   );

@@ -8,6 +8,11 @@ import ContentHeader from "@/components/ContentHeader";
 import ProjectSummary from "@/components/ProjectSummary";
 import ProblemStatement from "@/components/ProblemStatement";
 import { header, statementContent, summaryContent } from "./components/data";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Bens | Dentabook",
+};
 
 const JustinePage = () => {
   return (

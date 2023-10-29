@@ -1,3 +1,4 @@
+import Contacts from "@/components/Contacts";
 import Hero from "@/components/Hero";
 import PageWrapper from "@/components/PageWrapper";
 import Team from "@/components/Team";
@@ -19,6 +20,7 @@ export default function Home() {
         </h3>
 
         <Team />
+        <Contacts />
       </section>
     </PageWrapper>
   );

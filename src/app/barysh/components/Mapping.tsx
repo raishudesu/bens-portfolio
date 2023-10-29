@@ -7,13 +7,16 @@ const Mapping = () => {
       <h3 className="scroll-m-20 text-2xl font-semibold tracking-tight mt-6">
         Customer journey mapping
       </h3>
-      <div className="flex justify-center mt-3">
+      <figure className="flex flex-col items-center mt-3">
         <Image
           src={mapping}
-          alt="customer-journey-mapping"
+          alt="sitex-home"
           className="shadow-md rounded-lg"
         />
-      </div>
+        <figcaption className="text-muted-foreground text-sm">
+          Customer journey mapping
+        </figcaption>
+      </figure>
     </>
   );
 };
