@@ -16,7 +16,7 @@ const Hero = () => {
           <HeroBtns />
         </div>
       </div>
-      <div className="flex justify-end">
+      <div className="flex justify-center md:justify-end">
         <Image
           src={HeroImg}
           alt="heroimg"

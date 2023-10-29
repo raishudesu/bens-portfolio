@@ -14,22 +14,20 @@ import { Button } from "./ui/button";
 import { useRouter } from "next/navigation";
 
 const MyCard = ({
-  title,
   author,
   image,
   link,
 }: {
-  title: string;
   author: string;
   image: StaticImageData;
   link: string;
 }) => {
   const router = useRouter();
   return (
-    <Card className="max-w-[600px]">
+    <Card className="w-full max-w-[600px]">
       <CardHeader>
-        <CardTitle>{title}</CardTitle>
-        <CardDescription>by: {author}</CardDescription>
+        <CardTitle>{author}</CardTitle>
+        <CardDescription>3rd year BSIT student</CardDescription>
       </CardHeader>
       <CardContent className="flex flex-col justify-center items-center">
         <Image
@@ -43,7 +41,7 @@ const MyCard = ({
           className="self-stretch md:self-center"
           onClick={() => router.push(link)}
         >
-          View
+          View portfolio
         </Button>
       </CardFooter>
     </Card>

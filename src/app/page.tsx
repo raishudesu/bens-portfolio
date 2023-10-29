@@ -15,10 +15,6 @@ export default function Home() {
         >
           Our development team
         </h2>
-        <h3 className="mt-8 scroll-m-20 text-2xl font-semibold tracking-tight">
-          Case studies
-        </h3>
-
         <Team />
         <Contacts />
       </section>

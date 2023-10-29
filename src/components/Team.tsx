@@ -11,16 +11,10 @@ const Team = () => {
       animate={{ opacity: 1, y: 0 }}
       exit={{ opacity: 0, y: 15 }}
       transition={{ delay: 0.35 }}
-      className="grid md:grid-cols-2 gap-6"
+      className="w-full max-w-screen-xl grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 justify-items-center"
     >
-      {studies.map(({ title, author, image, link }, index) => (
-        <MyCard
-          key={index}
-          title={title}
-          author={author}
-          image={image}
-          link={link}
-        />
+      {studies.map(({ author, image, link }, index) => (
+        <MyCard key={index} author={author} image={image} link={link} />
       ))}
     </motion.div>
   );
