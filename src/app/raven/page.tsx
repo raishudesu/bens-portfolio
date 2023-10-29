@@ -6,6 +6,8 @@ import ContentHeader from "@/components/ContentHeader";
 import { header, statementContent, summaryContent } from "./components/data";
 import ProjectSummary from "@/components/ProjectSummary";
 import ProblemStatement from "@/components/ProblemStatement";
+import Mapping from "./components/Mapping";
+import UserFlow from "./components/UserFlow";
 
 const RavenPage = () => {
   return (
@@ -19,9 +21,11 @@ const RavenPage = () => {
           />
           <ProjectSummary content={summaryContent} />
           <ProblemStatement content={statementContent} />
-          {/* <Design />
+          <Mapping />
+          <Design />
+          <UserFlow />
           <Visual />
-          <Prototype /> */}
+          <Prototype />
         </div>
       </section>
     </PageWrapper>

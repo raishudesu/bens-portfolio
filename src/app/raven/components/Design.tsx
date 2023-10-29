@@ -1,4 +1,3 @@
-import React from "react";
 import { solutions } from "./data";
 
 const Design = () => {
@@ -8,9 +7,9 @@ const Design = () => {
         Design solutions
       </h3>
       <ul className="my-6 ml-6 list-disc [&>li]:mt-2">
-        {solutions.map(({ design, solution }, index) => (
+        {solutions.map(({ solution, description }, index) => (
           <li key={index}>
-            <span className="font-bold">{design}</span>: {solution}
+            <span className="font-bold">{solution}</span>: {description}
           </li>
         ))}
       </ul>
