@@ -4,6 +4,8 @@ import PStatement from "./components/PStatement";
 import Design from "./components/Design";
 import Visual from "./components/Visual";
 import Prototype from "./components/Prototype";
+import Mapping from "./components/Mapping";
+import UserFlow from "./components/UserFlow";
 
 const JustinePage = () => {
   return (
@@ -21,7 +23,9 @@ const JustinePage = () => {
           </p>
           <Role />
           <PStatement />
+          <Mapping />
           <Design />
+          <UserFlow />
           <Visual />
           <Prototype />
         </div>

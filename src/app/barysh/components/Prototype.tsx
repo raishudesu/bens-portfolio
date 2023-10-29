@@ -34,11 +34,13 @@ const Prototype = () => {
       </ul>
       <Snapshot />
       <h4 className="scroll-m-20 text-xl font-semibold tracking-tight mt-3">
-        Test our prototype!
+        Prototype testing
       </h4>
+
       <p className="leading-7 [&:not(:first-child)]:mt-6">
-        The live prototype of SITEX offers pre-registration and its visual
-        user-interface design. Try it by clicking{" "}
+        Do you want to test SITEX prototype? The live prototype of SITEX offers
+        pre-registration and its visual user-interface design. Try it by
+        clicking{" "}
         <Link
           href={"https://site-learn-git-test-raishudesu.vercel.app"}
           target="_blank"

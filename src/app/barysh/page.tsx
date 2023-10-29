@@ -5,6 +5,7 @@ import Prototype from "./components/Prototype";
 import Role from "./components/Role";
 import Visual from "./components/Visual";
 import { Metadata } from "next";
+import Mapping from "./components/Mapping";
 
 export const metadata: Metadata = {
   title: "Bens | SITEX",
@@ -27,6 +28,7 @@ const BaryshPage = () => {
 
           <Role />
           <PStatement />
+          <Mapping />
           <Design />
           <Visual />
           <Prototype />

@@ -19,8 +19,12 @@ const UserFlow = () => {
         experience.
       </p>
       <div className="flex flex-col gap-6 items-center mt-3">
-        <Image src={userflow1} alt="legend" />
-        <Image src={userflow2} alt="user-flow" />
+        <Image src={userflow1} alt="legend" className="shadow-md rounded-lg" />
+        <Image
+          src={userflow2}
+          alt="user-flow"
+          className="shadow-md rounded-lg"
+        />
       </div>
     </>
   );

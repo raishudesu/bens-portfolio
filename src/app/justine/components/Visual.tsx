@@ -8,7 +8,7 @@ const Visual = () => {
       <h3 className="scroll-m-20 text-2xl font-semibold tracking-tight mt-6">
         Visual UI Design
       </h3>
-      <Image src={scheme} alt="scheme" />
+      <Image src={scheme} alt="scheme" className="shadow-md rounded-lg mt-3" />
       <h4 className="scroll-m-20 text-xl font-semibold tracking-tight mt-3">
         Color scheme
       </h4>

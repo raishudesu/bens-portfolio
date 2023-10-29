@@ -20,11 +20,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning={true}>
-      <meta
-        property="og:image"
-        content="https://i.imgur.com/XkFO7NT.png"
-      ></meta>
-      <meta property="description" content="Elevate User Experiences." />
+      <meta property="og:image" content="https://i.imgur.com/XkFO7NT.png" />
+      <meta property="og:description" content="Elevate User Experiences." />
       <body className={inter.className}>
         <ThemeProvider
           attribute="class"
@@ -38,8 +35,8 @@ export default function RootLayout({
             {children}
           </main>
           <Footer />
+          <ScrollToTop />
         </ThemeProvider>
-        <ScrollToTop />
       </body>
     </html>
   );
