@@ -8,7 +8,6 @@ import { Button } from "@/components/ui/button";
 import {
   Form,
   FormControl,
-  FormDescription,
   FormField,
   FormItem,
   FormLabel,
@@ -16,6 +15,8 @@ import {
 } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "./ui/textarea";
+import { emailSubmit } from "@/stores/useEmail";
+import { toast } from "./ui/use-toast";
 
 const formSchema = z.object({
   email: z
@@ -35,10 +36,13 @@ const ContactForm = () => {
       message: "",
     },
   });
-  function onSubmit(values: z.infer<typeof formSchema>) {
-    // Do something with the form values.
-    // ✅ This will be type-safe and validated.
-    console.log(values);
+  async function onSubmit(values: z.infer<typeof formSchema>) {
+    await emailSubmit(values);
+    form.reset();
+    toast({
+      title: "Submitted!",
+      description: "We will get back to you as soon as possible.",
+    });
   }
 
   return (
