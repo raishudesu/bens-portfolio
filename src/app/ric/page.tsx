@@ -5,6 +5,8 @@ import Prototype from "./components/Prototype";
 import Role from "./components/Role";
 import Visual from "./components/Visual";
 import { Metadata } from "next";
+import UserFlow from "./components/UserFlow";
+import Mapping from "./components/Mapping";
 
 export const metadata: Metadata = {
   title: "Bens | V-Companion",
@@ -27,7 +29,9 @@ const RicPage = () => {
           </p>
           <Role />
           <PStatement />
+          <Mapping />
           <Design />
+          <UserFlow />
           <Visual />
           <Prototype />
         </div>

@@ -36,10 +36,10 @@ export default function RootLayout({
           <main className="min-h-screen overflow-hidden p-6">
             <Prev />
             {children}
-            <ScrollToTop />
           </main>
           <Footer />
         </ThemeProvider>
+        <ScrollToTop />
       </body>
     </html>
   );
