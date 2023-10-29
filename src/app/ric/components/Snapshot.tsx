@@ -8,7 +8,12 @@ const Snapshot = () => {
     <>
       <div className="flex flex-col gap-6 mt-3">
         <figure className="flex flex-col items-center">
-          <Image src={home} alt="sitex-home" className="shadow-md rounded-lg" />
+          <Image
+            src={home}
+            alt="sitex-home"
+            className="shadow-md rounded-lg"
+            loading="lazy"
+          />
           <figcaption className="text-muted-foreground text-sm">
             Home page
           </figcaption>
@@ -23,6 +28,7 @@ const Snapshot = () => {
             src={chat}
             alt="sitex-signin"
             className="shadow-md rounded-lg"
+            loading="lazy"
           />
           <figcaption className="text-muted-foreground text-sm">
             Chat page
@@ -39,6 +45,7 @@ const Snapshot = () => {
             src={about}
             alt="sitex-register"
             className="shadow-md rounded-lg"
+            loading="lazy"
           />
           <figcaption className="text-muted-foreground text-sm">
             Contacts page

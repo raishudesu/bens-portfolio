@@ -5,7 +5,12 @@ const Snapshot = () => {
   return (
     <div className="flex flex-col gap-6 mt-3">
       <figure className="flex flex-col items-center">
-        <Image src={home} alt="sitex-home" className="shadow-md rounded-lg" />
+        <Image
+          src={home}
+          alt="sitex-home"
+          className="shadow-md rounded-lg"
+          loading="lazy"
+        />
         <figcaption className="text-muted-foreground text-sm">
           Sign in page
         </figcaption>

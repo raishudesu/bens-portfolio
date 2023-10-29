@@ -8,7 +8,12 @@ const Mapping = () => {
         Customer journey mapping
       </h3>
       <figure className="flex flex-col items-center mt-3">
-        <Image src={mapping} alt="mapping" className="shadow-md rounded-lg" />
+        <Image
+          src={mapping}
+          alt="mapping"
+          className="shadow-md rounded-lg"
+          loading="lazy"
+        />
         <figcaption className="text-muted-foreground text-sm">
           Customer journey mapping
         </figcaption>

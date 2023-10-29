@@ -24,6 +24,7 @@ const UserFlow = () => {
             src={userflow1}
             alt="legend"
             className="shadow-md rounded-lg"
+            loading="lazy"
           />
           <figcaption className="text-muted-foreground text-sm">
             Legend
@@ -34,6 +35,7 @@ const UserFlow = () => {
             src={userflow2}
             alt="sitex-home"
             className="shadow-md rounded-lg"
+            loading="lazy"
           />
           <figcaption className="text-muted-foreground text-sm">
             User flow

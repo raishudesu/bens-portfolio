@@ -8,7 +8,12 @@ const Visual = () => {
         Visual UI Design
       </h3>
       <figure className="flex flex-col items-center mt-">
-        <Image src={scheme} alt="scheme" className="shadow-md rounded-lg" />
+        <Image
+          src={scheme}
+          alt="scheme"
+          className="shadow-md rounded-lg"
+          loading="lazy"
+        />
         <figcaption className="text-muted-foreground text-sm">
           UI design
         </figcaption>

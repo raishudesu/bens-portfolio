@@ -12,6 +12,7 @@ const UserFlow = () => {
           src={userflow}
           alt="user-flow"
           className="shadow-md rounded-lg"
+          loading="lazy"
         />
         <figcaption className="text-muted-foreground text-sm">
           User flow

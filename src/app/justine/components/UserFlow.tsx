@@ -9,7 +9,12 @@ const UserFlow = () => {
       </h3>
 
       <figure className="flex flex-col items-center mt-3">
-        <Image src={userflow} alt="userflow" className="shadow-md rounded-lg" />
+        <Image
+          src={userflow}
+          alt="userflow"
+          className="shadow-md rounded-lg"
+          loading="lazy"
+        />
         <figcaption className="text-muted-foreground text-sm">
           User flow
         </figcaption>

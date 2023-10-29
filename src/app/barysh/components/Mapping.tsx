@@ -1,5 +1,6 @@
 import Image from "next/image";
 import mapping from "../../../assets/barysh/mapping.jpg";
+import { Skeleton } from "@/components/ui/skeleton";
 
 const Mapping = () => {
   return (
@@ -12,6 +13,7 @@ const Mapping = () => {
           src={mapping}
           alt="sitex-home"
           className="shadow-md rounded-lg"
+          loading="lazy"
         />
         <figcaption className="text-muted-foreground text-sm">
           Customer journey mapping

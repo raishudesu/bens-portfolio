@@ -16,7 +16,12 @@ const Visual = () => {
         drive our community&apos;s passion and curiosity.
       </p>
       <figure className="flex flex-col items-center mt-6">
-        <Image src={Sitex} alt="sitex-logo" className="shadow-md rounded-lg" />
+        <Image
+          src={Sitex}
+          alt="sitex-logo"
+          className="shadow-md rounded-lg"
+          loading="lazy"
+        />
         <figcaption className="text-muted-foreground text-sm">
           SITEX logo
         </figcaption>

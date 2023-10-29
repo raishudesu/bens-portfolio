@@ -12,7 +12,12 @@ const Snapshot = () => {
       </h3>
       <div className="flex flex-col gap-12 mt-3">
         <figure className="flex flex-col items-center">
-          <Image src={home} alt="sitex-home" className="shadow-md rounded-lg" />
+          <Image
+            src={home}
+            alt="sitex-home"
+            className="shadow-md rounded-lg"
+            loading="lazy"
+          />
           <figcaption className="text-muted-foreground text-sm">
             SITEX home page
           </figcaption>
@@ -22,6 +27,7 @@ const Snapshot = () => {
             src={signin}
             alt="sitex-signin"
             className="shadow-md rounded-lg"
+            loading="lazy"
           />
           <figcaption className="text-muted-foreground text-sm">
             SITEX sign in page
@@ -32,6 +38,7 @@ const Snapshot = () => {
             src={register}
             alt="sitex-register"
             className="shadow-md rounded-lg"
+            loading="lazy"
           />
           <figcaption className="text-muted-foreground text-sm">
             SITEX register page
@@ -42,6 +49,7 @@ const Snapshot = () => {
             src={dashboard}
             alt="sitex-dashboard"
             className="shadow-md rounded-lg"
+            loading="lazy"
           />
           <figcaption className="text-muted-foreground text-sm">
             SITEX user dashboard

@@ -26,7 +26,12 @@ const Visual = () => {
         Background image
       </h4>
       <figure className="flex flex-col items-center mt-3">
-        <Image src={bg} alt="bg-image" className="shadow-md rounded-lg" />
+        <Image
+          src={bg}
+          alt="bg-image"
+          className="shadow-md rounded-lg"
+          loading="lazy"
+        />
         <figcaption className="text-muted-foreground text-sm">
           Background image
         </figcaption>
@@ -41,6 +46,7 @@ const Visual = () => {
             src={form1}
             alt="login-form"
             className="shadow-md rounded-lg"
+            loading="lazy"
           />
           <figcaption className="text-muted-foreground text-sm">
             Login form
@@ -62,6 +68,7 @@ const Visual = () => {
             src={form2}
             alt="register-form"
             className="shadow-md rounded-lg"
+            loading="lazy"
           />
           <figcaption className="text-muted-foreground text-sm">
             Register form
@@ -87,6 +94,7 @@ const Visual = () => {
             src={welcome}
             alt="welcome-page"
             className="shadow-md rounded-lg"
+            loading="lazy"
           />
           <figcaption className="text-muted-foreground text-sm">
             Welcome page
@@ -107,7 +115,12 @@ const Visual = () => {
       </h4>
       <div className="flex flex-col justify-center items-center gap-6 mt-3">
         <figure className="flex flex-col items-center">
-          <Image src={pick} alt="user-flow" className="shadow-md rounded-lg" />
+          <Image
+            src={pick}
+            alt="user-flow"
+            className="shadow-md rounded-lg"
+            loading="lazy"
+          />
           <figcaption className="text-muted-foreground text-sm">
             Choosing difficulty
           </figcaption>
