@@ -1,5 +1,5 @@
-import Barysh from "../assets/barysh.png";
-import Ric from "../assets/ric1.jpg";
+import Barysh from "../assets/barysh.jpg";
+import Ric from "../assets/ric.jpg";
 import Raven from "../assets/raven.jpg";
 import Justine from "../assets/justine.jpg";
 
