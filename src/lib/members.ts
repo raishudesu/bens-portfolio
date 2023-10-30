@@ -26,6 +26,7 @@ export const studies = [
     image: Justine,
     link: "/justine",
     study: "/justine/case-study",
+    cv: "/justinecv.pdf",
   },
   {
     title:
@@ -38,6 +39,7 @@ export const studies = [
     image: Ric,
     link: "/ric",
     study: "/ric/case-study",
+    cv: "/riccv.pdf",
   },
   {
     title: "CourseCrafters: A Quest for Knowledge",
@@ -49,5 +51,6 @@ export const studies = [
     image: Raven,
     link: "/raven",
     study: "/raven/case-study",
+    cv: "/ravencv.pdf",
   },
 ];

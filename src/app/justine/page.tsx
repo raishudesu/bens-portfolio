@@ -3,12 +3,13 @@ import Design from "./components/Design";
 import Visual from "./components/Visual";
 import Prototype from "./components/Prototype";
 import Mapping from "./components/Mapping";
-import UserFlow from "./components/UserFlow";
 import ContentHeader from "@/components/ContentHeader";
 import ProjectSummary from "@/components/ProjectSummary";
 import ProblemStatement from "@/components/ProblemStatement";
 import { header, statementContent, summaryContent } from "./components/data";
 import { Metadata } from "next";
+import userflow from "../../assets/justine/userflow.jpg";
+import UserFlow from "@/components/portfolio/UserFlow";
 
 export const metadata: Metadata = {
   title: "Bens | Dentabook",
@@ -28,7 +29,7 @@ const JustinePage = () => {
           <ProblemStatement content={statementContent} />
           <Mapping />
           <Design />
-          <UserFlow />
+          <UserFlow src={userflow} />
           <Visual />
           <Prototype />
         </div>

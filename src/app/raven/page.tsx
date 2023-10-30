@@ -7,8 +7,9 @@ import { header, statementContent, summaryContent } from "./components/data";
 import ProjectSummary from "@/components/ProjectSummary";
 import ProblemStatement from "@/components/ProblemStatement";
 import Mapping from "./components/Mapping";
-import UserFlow from "./components/UserFlow";
 import { Metadata } from "next";
+import UserFlow from "@/components/portfolio/UserFlow";
+import userflow from "../../assets/raven/userflow.jpg";
 
 export const metadata: Metadata = {
   title: "Bens | CourseCrafters",
@@ -28,7 +29,7 @@ const RavenPage = () => {
           <ProblemStatement content={statementContent} />
           <Mapping />
           <Design />
-          <UserFlow />
+          <UserFlow src={userflow} />
           <Visual />
           <Prototype />
         </div>

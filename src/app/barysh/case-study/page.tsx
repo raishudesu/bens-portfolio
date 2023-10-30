@@ -7,6 +7,8 @@ import Mapping from "./components/Mapping";
 import Design from "./components/Design";
 import Visual from "./components/Visual";
 import Prototype from "./components/Prototype";
+import UserFlow from "@/components/portfolio/UserFlow";
+import userflow from "../../../assets/barysh/userflow.jpg";
 
 const CaseStudyPage = () => {
   return (
@@ -21,6 +23,7 @@ const CaseStudyPage = () => {
         <ProblemStatement content={statementContent} />
         <Mapping />
         <Design />
+        <UserFlow src={userflow} />
         <Visual />
         <Prototype />
       </div>
