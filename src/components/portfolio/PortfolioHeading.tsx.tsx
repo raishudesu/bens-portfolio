@@ -1,6 +1,6 @@
 import Image, { StaticImageData } from "next/image";
 import React from "react";
-import Stack from "./Stack";
+import Stack from "../../app/barysh/components/Stack";
 import { Button } from "@/components/ui/button";
 
 type THeading = {
@@ -14,17 +14,15 @@ type THeading = {
 const PortfolioHeading = ({ author, image, role, bio, about }: THeading) => {
   return (
     <>
-      <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl">
-        {author}
-      </h1>
-
       <Image
         src={image}
         alt="member-image"
-        className="rounded-full w-full max-w-[200px]"
+        className="rounded-full w-full max-w-[200px] self-center"
       />
-
-      <h2 className="mt-10 scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight transition-colors first:mt-0">
+      <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl text-center">
+        {author}
+      </h1>
+      <h2 className="mt-10 scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight transition-colors first:mt-0 text-center">
         {role}
       </h2>
       <Stack />
@@ -33,7 +31,7 @@ const PortfolioHeading = ({ author, image, role, bio, about }: THeading) => {
         About me
       </h3>
       <p className="leading-7 [&:not(:first-child)]:mt-6">{about}</p>
-      <Button>Download CV</Button>
+      <Button className="self-stretch md:self-start">Download CV</Button>
     </>
   );
 };

@@ -3,7 +3,7 @@ import { Metadata } from "next";
 import Projects from "./components/Projects";
 import Study from "./components/Study";
 import Contacts from "@/components/Contacts";
-import PortfolioHeading from "./components/PortfolioHeading.tsx";
+import PortfolioHeading from "../../components/portfolio/PortfolioHeading.tsx";
 import { studies } from "@/lib/members";
 
 export const metadata: Metadata = {
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 const BaryshPage = () => {
   return (
     <PageWrapper>
-      <div className="max-w-screen-md flex flex-col gap-6 items-center">
+      <div className="max-w-screen-lg flex flex-col gap-6">
         <PortfolioHeading
           author={studies[0].author}
           image={studies[0].image}
@@ -23,7 +23,6 @@ const BaryshPage = () => {
         />
         <Study />
         <Projects />
-        <Contacts />
       </div>
     </PageWrapper>
   );

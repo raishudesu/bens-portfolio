@@ -11,7 +11,7 @@ import { SiExpress } from "react-icons/si";
 
 const Stack = () => {
   return (
-    <div className="flex gap-1 justify-center flex-wrap">
+    <div className="flex gap-1 justify-center flex-wrap text-[#2563eb]">
       <TbBrandNextjs size={30} />
       <BiLogoTypescript size={30} />
       <BiLogoMongodb size={30} />
