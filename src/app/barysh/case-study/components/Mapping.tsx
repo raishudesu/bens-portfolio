@@ -1,6 +1,5 @@
 import Image from "next/image";
-import mapping from "../../../assets/barysh/mapping.jpg";
-import { Skeleton } from "@/components/ui/skeleton";
+import mapping from "../../../../assets/barysh/mapping.jpg";
 
 const Mapping = () => {
   return (

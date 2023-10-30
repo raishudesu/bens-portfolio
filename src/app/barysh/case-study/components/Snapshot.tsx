@@ -1,8 +1,8 @@
 import Image from "next/image";
-import home from "../../../assets/barysh/homepage.jpg";
-import signin from "../../../assets/barysh/signin.jpg";
-import register from "../../../assets/barysh/register.jpg";
-import dashboard from "../../../assets/barysh/dashboard.jpg";
+import home from "../../../../assets/barysh/homepage.jpg";
+import signin from "../../../../assets/barysh/signin.jpg";
+import register from "../../../../assets/barysh/register.jpg";
+import dashboard from "../../../../assets/barysh/dashboard.jpg";
 
 const Snapshot = () => {
   return (

@@ -1,6 +1,6 @@
 import Image from "next/image";
-import Sitex from "../../../assets/barysh/sitex-logo.png";
-import { themes } from "./data";
+import Sitex from "../../../../assets/barysh/sitex-logo.png";
+import { themes } from "../../components/data";
 
 const Visual = () => {
   return (

@@ -1,3 +1,6 @@
+import reverie from "../../../assets/barysh/reverie.jpg";
+import quillify from "../../../assets/barysh/quillify.jpg";
+
 export const solutions = [
   {
     content:
@@ -104,3 +107,26 @@ export const summaryContent =
 
 export const statementContent =
   "The project is inspired by a prevalent issue in the IT student community, where students often lack a clear focus within the field due to a lack of collaborative opportunities and difficulties in finding suitable online learning resources. This lack of direction leads to disinterest and fatigue in their academic programs, hindering their education and career development.";
+
+export const projects = [
+  {
+    title: "Reverie",
+    summary:
+      "Reverie functions as a diary application that's accessible from both desktop and mobile browsers.",
+    image: reverie,
+    links: {
+      github: "https://github.com/raishudesu/Reverie",
+      live: "https://reverie-notes.web.app",
+    },
+  },
+  {
+    title: "Quillify",
+    summary:
+      "Your source for tech insights, tutorials, and community discussions.",
+    image: quillify,
+    links: {
+      github: "https://github.com/raishudesu/quillify-client",
+      live: "https://quillify.vercel.app",
+    },
+  },
+];

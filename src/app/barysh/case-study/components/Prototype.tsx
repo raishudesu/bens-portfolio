@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { features, libraries } from "./data";
+import { features, libraries } from "../../components/data";
 import Snapshot from "./Snapshot";
 
 const Prototype = () => {
