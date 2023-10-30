@@ -1,3 +1,8 @@
+import home from "../../../assets/raven/home.jpg";
+import course from "../../../assets/raven/course.jpg";
+import diff from "../../../assets/raven/diff.jpg";
+import quiz from "../../../assets/raven/quiz.jpg";
+
 export const header = {
   title: "Coursecrafters: A Quest for Knowledge",
   author: "Raven Salvatierra",
@@ -14,5 +19,24 @@ export const solutions = [
     solution: "Gamification",
     description:
       "Introduce gamification elements such as badges, rewards, and challenges within the app to make productivity and time management more engaging and fun. ",
+  },
+];
+
+export const snapshots = [
+  {
+    image: home,
+    caption: "Login form",
+  },
+  {
+    image: course,
+    caption: "Course selection",
+  },
+  {
+    image: diff,
+    caption: "Difficulty selection",
+  },
+  {
+    image: quiz,
+    caption: "Quiz game",
   },
 ];
