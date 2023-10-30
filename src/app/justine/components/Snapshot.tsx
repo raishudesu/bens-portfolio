@@ -1,20 +1,22 @@
 import Image from "next/image";
-import home from "../../../assets/justine/home.jpg";
+import { snapshots } from "./data";
 
 const Snapshot = () => {
   return (
     <div className="flex flex-col gap-6 mt-3">
-      <figure className="flex flex-col items-center">
-        <Image
-          src={home}
-          alt="sitex-home"
-          className="shadow-md rounded-lg"
-          loading="lazy"
-        />
-        <figcaption className="text-muted-foreground text-sm">
-          Sign in page
-        </figcaption>
-      </figure>
+      {snapshots.map(({ image, caption }, index) => (
+        <figure key={index} className="flex flex-col items-center">
+          <Image
+            src={image}
+            alt="image"
+            className="shadow-md rounded-lg"
+            loading="lazy"
+          />
+          <figcaption className="text-muted-foreground text-sm">
+            {caption}
+          </figcaption>
+        </figure>
+      ))}
     </div>
   );
 };
