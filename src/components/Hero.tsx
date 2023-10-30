@@ -12,7 +12,7 @@ const Hero = () => {
         <p className="leading-7">
           Elevate user interaction and design expertise.
         </p>
-        <div className="flex gap-2">
+        <div className="flex flex-col md:flex-row gap-2">
           <HeroBtns />
         </div>
       </div>

@@ -15,13 +15,13 @@ const ExploreBtn = () => {
 
   return (
     <>
-      <Button onClick={exploreScroll} className="self-start">
+      <Button onClick={exploreScroll} className="self-stretch md:self-start">
         Explore
       </Button>
       <Button
         variant={"outline"}
         onClick={contactScroll}
-        className="self-start"
+        className="self-stretch md:self-start"
       >
         Contact us
       </Button>
