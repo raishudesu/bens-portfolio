@@ -13,8 +13,14 @@ const Team = () => {
       transition={{ delay: 0.35 }}
       className="w-full max-w-screen-xl grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 justify-items-center"
     >
-      {studies.map(({ author, image, link }, index) => (
-        <MyCard key={index} author={author} image={image} link={link} />
+      {studies.map(({ author, image, link, role }, index) => (
+        <MyCard
+          key={index}
+          author={author}
+          image={image}
+          link={link}
+          role={role}
+        />
       ))}
     </motion.div>
   );

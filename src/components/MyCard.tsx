@@ -17,17 +17,19 @@ const MyCard = ({
   author,
   image,
   link,
+  role,
 }: {
   author: string;
   image: StaticImageData;
   link: string;
+  role: string;
 }) => {
   const router = useRouter();
   return (
     <Card className="w-full max-w-[600px]">
       <CardHeader>
         <CardTitle>{author}</CardTitle>
-        <CardDescription>3rd year BSIT student</CardDescription>
+        <CardDescription>{role}</CardDescription>
       </CardHeader>
       <CardContent className="flex flex-col justify-center items-center">
         <Image

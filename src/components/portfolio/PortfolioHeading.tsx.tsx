@@ -9,9 +9,17 @@ type THeading = {
   role: string;
   bio: string;
   about: string;
+  cv: string | undefined;
 };
 
-const PortfolioHeading = ({ author, image, role, bio, about }: THeading) => {
+const PortfolioHeading = ({
+  author,
+  image,
+  role,
+  bio,
+  about,
+  cv,
+}: THeading) => {
   return (
     <>
       <Image
@@ -31,7 +39,18 @@ const PortfolioHeading = ({ author, image, role, bio, about }: THeading) => {
         About me
       </h3>
       <p className="leading-7 [&:not(:first-child)]:mt-6">{about}</p>
-      <Button className="self-stretch md:self-start">Download CV</Button>
+
+      <Button className="self-stretch md:self-start p-0">
+        <a
+          href={cv}
+          download
+          target="_blank"
+          rel="noopener noreferrer"
+          className="w-full p-4"
+        >
+          Download cv
+        </a>
+      </Button>
     </>
   );
 };

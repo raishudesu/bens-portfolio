@@ -13,7 +13,7 @@ export default function Home() {
           id="team"
           className="text-center mt-10 scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight transition-colors first:mt-0"
         >
-          Our development team
+          The development team
         </h2>
         <Team />
         <Contacts />

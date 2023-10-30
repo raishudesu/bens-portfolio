@@ -20,6 +20,7 @@ const BaryshPage = () => {
           role={studies[0].role}
           bio={studies[0].bio}
           about={studies[0].about}
+          cv={studies[0].cv}
         />
         <Study />
         <Projects />
