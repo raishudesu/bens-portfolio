@@ -2,7 +2,7 @@ import {
   BiLogoJavascript,
   BiLogoCss3,
   BiLogoPython,
-  BiLogoFigma,
+  BiLogoAdobe,
 } from "react-icons/bi";
 
 import { AiFillHtml5 } from "react-icons/ai";
@@ -18,7 +18,7 @@ const Stack = () => {
         <BiLogoCss3 size={30} />
         <BiLogoJavascript size={30} />
         <BiLogoPython size={30} />
-        <BiLogoFigma size={30} />
+        <BiLogoAdobe size={30} />
       </div>
     </>
   );
