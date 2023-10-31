@@ -1,6 +1,6 @@
 import { ReactNode } from "react";
 
-const RavenLayout = ({ children }: { children: ReactNode }) => {
+const RicLayout = ({ children }: { children: ReactNode }) => {
   return (
     <section className="w-full flex flex-col justify-center items-center gap-6 mt-6">
       {children}
@@ -8,4 +8,4 @@ const RavenLayout = ({ children }: { children: ReactNode }) => {
   );
 };
 
-export default RavenLayout;
+export default RicLayout;

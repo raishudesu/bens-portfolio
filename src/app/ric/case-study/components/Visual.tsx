@@ -1,4 +1,4 @@
-import { design, points } from "./data";
+import { design, points } from "../../components/data";
 
 const Visual = () => {
   return (

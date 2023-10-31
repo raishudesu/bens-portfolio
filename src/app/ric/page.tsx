@@ -1,38 +1,29 @@
 import PageWrapper from "@/components/PageWrapper";
-import Design from "./components/Design";
-import Prototype from "./components/Prototype";
-import Visual from "./components/Visual";
 import { Metadata } from "next";
-import UserFlow from "./components/UserFlow";
-import Mapping from "./components/Mapping";
-import ContentHeader from "@/components/ContentHeader";
-import { header, statementContent, summaryContent } from "./components/data";
-import ProjectSummary from "@/components/ProjectSummary";
-import ProblemStatement from "@/components/ProblemStatement";
+import PortfolioHeading from "@/components/portfolio/PortfolioHeading.tsx";
+import { studies } from "@/lib/members";
+import Stack from "./components/Stack";
+import Study from "./components/Study";
 
 export const metadata: Metadata = {
-  title: "Bens | V-Companion",
+  title: "Bens | Ric",
 };
 
 const RicPage = () => {
   return (
     <PageWrapper>
-      <section className="w-full flex flex-col justify-center items-center gap-6 mt-6">
-        <div className="max-w-screen-lg">
-          <ContentHeader
-            title={header.title}
-            author={header.author}
-            lastUpdated={header.lastUpdated}
-          />
-          <ProjectSummary content={summaryContent} />
-          <ProblemStatement content={statementContent} />
-          <Mapping />
-          <Design />
-          <UserFlow />
-          <Visual />
-          <Prototype />
-        </div>
-      </section>
+      <div className="max-w-screen-lg flex flex-col gap-6">
+        <PortfolioHeading
+          author={studies[2].author}
+          image={studies[2].image}
+          role={studies[2].role}
+          bio={studies[2].bio}
+          about={studies[2].about}
+          cv={studies[2].cv}
+        />
+        <Stack />
+        <Study />
+      </div>
     </PageWrapper>
   );
 };

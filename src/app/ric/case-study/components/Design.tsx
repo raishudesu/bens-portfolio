@@ -1,5 +1,4 @@
-import React from "react";
-import { solutions } from "./data";
+import { solutions } from "../../components/data";
 
 const Design = () => {
   return (

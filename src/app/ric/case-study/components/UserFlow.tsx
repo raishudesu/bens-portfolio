@@ -1,6 +1,6 @@
 import Image from "next/image";
-import userflow1 from "../../../assets/ric/userflow1.jpg";
-import userflow2 from "../../../assets/ric/userflow2.jpg";
+import userflow1 from "../../../../assets/ric/userflow1.jpg";
+import userflow2 from "../../../../assets/ric/userflow2.jpg";
 
 const UserFlow = () => {
   return (

@@ -1,7 +1,7 @@
 import Image from "next/image";
-import home from "../../../assets/ric/home.jpg";
-import chat from "../../../assets/ric/chat.jpg";
-import about from "../../../assets/ric/about.jpg";
+import home from "../../../../assets/ric/home.jpg";
+import chat from "../../../../assets/ric/chat.jpg";
+import about from "../../../../assets/ric/about.jpg";
 
 const Snapshot = () => {
   return (

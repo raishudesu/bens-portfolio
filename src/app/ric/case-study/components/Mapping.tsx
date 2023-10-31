@@ -1,5 +1,5 @@
 import Image from "next/image";
-import mapping from "../../../assets/ric/mapping.jpg";
+import mapping from "../../../../assets/ric/mapping.jpg";
 
 const Mapping = () => {
   return (
