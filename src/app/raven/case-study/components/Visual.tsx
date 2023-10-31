@@ -1,9 +1,9 @@
 import Image from "next/image";
-import bg from "../../../assets/raven/bg.jpg";
-import form1 from "../../../assets/raven/form1.jpg";
-import form2 from "../../../assets/raven/form2.jpg";
-import welcome from "../../../assets/raven/welcome.jpg";
-import pick from "../../../assets/raven/pick.jpg";
+import bg from "../../../../assets/raven/bg.jpg";
+import form1 from "../../../../assets/raven/form1.jpg";
+import form2 from "../../../../assets/raven/form2.jpg";
+import welcome from "../../../../assets/raven/welcome.jpg";
+import pick from "../../../../assets/raven/pick.jpg";
 
 const Visual = () => {
   return (

@@ -1,5 +1,5 @@
 import Image from "next/image";
-import mapping from "../../../assets/raven/mapping.jpg";
+import mapping from "../../../../assets/raven/mapping.jpg";
 
 const Mapping = () => {
   return (
