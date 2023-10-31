@@ -1,6 +1,5 @@
 import Image, { StaticImageData } from "next/image";
-import React from "react";
-import Stack from "../../app/barysh/components/Stack";
+import React, { JSXElementConstructor, ReactElement } from "react";
 import { Button } from "@/components/ui/button";
 
 type THeading = {
@@ -33,13 +32,11 @@ const PortfolioHeading = ({
       <h2 className="mt-10 scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight transition-colors first:mt-0 text-center">
         {role}
       </h2>
-      <Stack />
       <p className=" leading-7 [&:not(:first-child)]:mt-6">{bio}</p>
       <h3 className="scroll-m-20 text-2xl font-semibold tracking-tight mt-6">
         About me
       </h3>
       <p className="leading-7 [&:not(:first-child)]:mt-6">{about}</p>
-
       <Button className="self-stretch md:self-start p-0">
         <a
           href={cv}

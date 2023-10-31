@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { snapshots } from "./data";
+import { snapshots } from "../../components/data";
 
 const Snapshot = () => {
   return (

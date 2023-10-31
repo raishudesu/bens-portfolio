@@ -1,21 +1,22 @@
 import ContentHeader from "@/components/ContentHeader";
 import PageWrapper from "@/components/PageWrapper";
-import { header, statementContent, summaryContent } from "../components/data";
-import ProjectSummary from "@/components/ProjectSummary";
 import ProblemStatement from "@/components/ProblemStatement";
+import ProjectSummary from "@/components/ProjectSummary";
+import React from "react";
 import Mapping from "./components/Mapping";
 import Design from "./components/Design";
+import UserFlow from "@/components/portfolio/UserFlow";
 import Visual from "./components/Visual";
 import Prototype from "./components/Prototype";
-import UserFlow from "@/components/portfolio/UserFlow";
-import userflow from "../../../assets/barysh/userflow.jpg";
+import { header, statementContent, summaryContent } from "../components/data";
+import userflow from "../../../assets/justine/userflow.jpg";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Bens | SITEX",
+  title: "Bens | Dentabook",
 };
 
-const CaseStudyPage = () => {
+const JustinePage = () => {
   return (
     <PageWrapper>
       <div className="max-w-screen-lg">
@@ -36,4 +37,4 @@ const CaseStudyPage = () => {
   );
 };
 
-export default CaseStudyPage;
+export default JustinePage;

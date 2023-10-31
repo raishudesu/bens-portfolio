@@ -1,39 +1,29 @@
 import PageWrapper from "@/components/PageWrapper";
-import Design from "./components/Design";
-import Visual from "./components/Visual";
-import Prototype from "./components/Prototype";
-import Mapping from "./components/Mapping";
-import ContentHeader from "@/components/ContentHeader";
-import ProjectSummary from "@/components/ProjectSummary";
-import ProblemStatement from "@/components/ProblemStatement";
-import { header, statementContent, summaryContent } from "./components/data";
 import { Metadata } from "next";
-import userflow from "../../assets/justine/userflow.jpg";
-import UserFlow from "@/components/portfolio/UserFlow";
+import PortfolioHeading from "@/components/portfolio/PortfolioHeading.tsx";
+import Study from "./components/Study";
+import { studies } from "@/lib/members";
+import Stack from "./components/Stack";
 
 export const metadata: Metadata = {
-  title: "Bens | Dentabook",
+  title: "Bens | Justine",
 };
 
 const JustinePage = () => {
   return (
     <PageWrapper>
-      <section className="w-full flex flex-col justify-center items-center gap-6 mt-6">
-        <div className="max-w-screen-lg">
-          <ContentHeader
-            title={header.title}
-            author={header.author}
-            lastUpdated={header.lastUpdated}
-          />
-          <ProjectSummary content={summaryContent} />
-          <ProblemStatement content={statementContent} />
-          <Mapping />
-          <Design />
-          <UserFlow src={userflow} />
-          <Visual />
-          <Prototype />
-        </div>
-      </section>
+      <div className="max-w-screen-lg flex flex-col gap-6">
+        <PortfolioHeading
+          author={studies[1].author}
+          image={studies[1].image}
+          role={studies[1].role}
+          bio={studies[1].bio}
+          about={studies[1].about}
+          cv={studies[1].cv}
+        />
+        <Stack />
+        <Study />
+      </div>
     </PageWrapper>
   );
 };

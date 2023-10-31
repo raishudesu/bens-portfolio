@@ -1,4 +1,4 @@
-import scheme from "../../../assets/justine/scheme.jpg";
+import scheme from "../../../../assets/justine/scheme.jpg";
 import Image from "next/image";
 
 const Visual = () => {

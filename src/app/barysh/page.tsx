@@ -2,12 +2,12 @@ import PageWrapper from "@/components/PageWrapper";
 import { Metadata } from "next";
 import Projects from "./components/Projects";
 import Study from "./components/Study";
-import Contacts from "@/components/Contacts";
 import PortfolioHeading from "../../components/portfolio/PortfolioHeading.tsx";
 import { studies } from "@/lib/members";
+import Stack from "./components/Stack";
 
 export const metadata: Metadata = {
-  title: "Bens | SITEX",
+  title: "Bens | Barysh",
 };
 
 const BaryshPage = () => {
@@ -22,6 +22,7 @@ const BaryshPage = () => {
           about={studies[0].about}
           cv={studies[0].cv}
         />
+        <Stack />
         <Study />
         <Projects />
       </div>
