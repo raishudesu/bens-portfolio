@@ -19,7 +19,7 @@ const Snapshot = () => {
             loading="lazy"
           />
           <figcaption className="text-muted-foreground text-sm">
-            SITEX home page
+            Home page
           </figcaption>
         </figure>
         <figure className="flex flex-col items-center">
@@ -30,7 +30,7 @@ const Snapshot = () => {
             loading="lazy"
           />
           <figcaption className="text-muted-foreground text-sm">
-            SITEX sign in page
+            Sign in page
           </figcaption>
         </figure>
         <figure className="flex flex-col items-center">
@@ -41,7 +41,7 @@ const Snapshot = () => {
             loading="lazy"
           />
           <figcaption className="text-muted-foreground text-sm">
-            SITEX register page
+            Register page
           </figcaption>
         </figure>
         <figure className="flex flex-col items-center">
@@ -52,7 +52,7 @@ const Snapshot = () => {
             loading="lazy"
           />
           <figcaption className="text-muted-foreground text-sm">
-            SITEX user dashboard
+            User dashboard
           </figcaption>
         </figure>
       </div>
