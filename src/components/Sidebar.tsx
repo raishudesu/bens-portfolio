@@ -9,7 +9,6 @@ import {
 import { Atom, Menu } from "lucide-react";
 import { ModeToggle } from "./ModeToggle";
 import NavDropdown from "./NavDropdown";
-import Link from "next/link";
 import SideNavMenu from "./SideNavMenu";
 
 const membersNav = [
