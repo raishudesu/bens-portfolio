@@ -32,6 +32,9 @@ const PortfolioHeading = ({
       <h2 className="mt-10 scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight transition-colors first:mt-0 text-center">
         {role}
       </h2>
+      <h3 className="scroll-m-20 text-2xl font-semibold tracking-tight mt-6">
+        Introduction
+      </h3>
       <p className=" leading-7 [&:not(:first-child)]:mt-6">{bio}</p>
       <h3 className="scroll-m-20 text-2xl font-semibold tracking-tight mt-6">
         About me
