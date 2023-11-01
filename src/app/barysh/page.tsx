@@ -5,6 +5,7 @@ import Study from "./components/Study";
 import PortfolioHeading from "../../components/portfolio/PortfolioHeading.tsx";
 import { studies } from "@/lib/members";
 import Stack from "./components/Stack";
+import Links from "./components/Links";
 
 export const metadata: Metadata = {
   title: "Bens | Barysh",
@@ -23,6 +24,7 @@ const BaryshPage = () => {
           cv={studies[0].cv}
         />
         <Stack />
+        <Links />
         <Study />
         <Projects />
       </div>
