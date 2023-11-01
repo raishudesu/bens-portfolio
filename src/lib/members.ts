@@ -44,9 +44,9 @@ export const studies = [
   {
     title: "CourseCrafters: A Quest for Knowledge",
     role: "Front-End Developer",
-    bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque rhoncus diam rutrum auctor ultricies. Donec ornare diam non magna convallis, tincidunt pretium nibh vestibulum. ",
+    bio: "A dedicated developer in transforming design concepts into interactive and engaging digital experiences. ",
     about:
-      "Cras blandit consectetur varius. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed nec eros tristique, rhoncus risus sit amet, rhoncus velit. Quisque sagittis, nulla sit amet mollis semper, lacus erat aliquam elit, quis convallis sapien nibh eu ipsum. Phasellus sed egestas risus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;",
+      "I'm a passionate web designer dedicated to creating captivating online experiences. My work revolves around crafting user-friendly designs that cater to individual preferences, and my ultimate goal is to bring a smile to users' faces when they interact with my creations. I believe that the intersection of creativity and functionality is where the magic happens, and I'm here to make that magic a reality. Let's collaborate and make the web a more beautiful and enjoyable place for everyone.",
     author: "Raven Salvatierra",
     image: Raven,
     link: "/raven",
