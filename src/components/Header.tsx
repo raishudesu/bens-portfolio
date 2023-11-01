@@ -1,8 +1,9 @@
 import Link from "next/link";
 import { ModeToggle } from "./ModeToggle";
-import { Atom } from "lucide-react";
 import NavMenu from "./NavMenu";
 import Sidebar from "./Sidebar";
+import Image from "next/image";
+import atom from "../assets/atom.svg";
 
 const Header = () => {
   return (
@@ -12,7 +13,7 @@ const Header = () => {
           href={"/"}
           className="flex items-center gap-1 scroll-m-20 text-2xl font-bold tracking-tight transition-colors first:mt-0"
         >
-          <Atom color="#2563eb" />
+          <Image src={atom} alt="atom-icon" className="w-[25px]" />
           bens
         </Link>
         <div className="hidden md:block">
