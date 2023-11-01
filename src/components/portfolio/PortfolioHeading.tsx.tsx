@@ -48,7 +48,7 @@ const PortfolioHeading = ({
           rel="noopener noreferrer"
           className="w-full p-4"
         >
-          Download cv
+          Download CV
         </a>
       </Button>
     </>

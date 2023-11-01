@@ -26,6 +26,18 @@ const NavMenu = () => {
           </Link>
         </NavigationMenuItem>
         <NavigationMenuItem>
+          <NavigationMenuTrigger>Portfolios</NavigationMenuTrigger>
+          <NavigationMenuContent>
+            <ul className="grid gap-3 p-6 md:w-[400px] lg:w-[500px] lg:grid-cols-[.75fr_1fr]">
+              {studies.map(({ author, link, role }, index) => (
+                <ListItem key={index} href={link} title={author}>
+                  {role}
+                </ListItem>
+              ))}
+            </ul>
+          </NavigationMenuContent>
+        </NavigationMenuItem>
+        <NavigationMenuItem>
           <NavigationMenuTrigger>Case studies</NavigationMenuTrigger>
           <NavigationMenuContent>
             <ul className="grid gap-3 p-6 md:w-[400px] lg:w-[500px] lg:grid-cols-[.75fr_1fr]">
