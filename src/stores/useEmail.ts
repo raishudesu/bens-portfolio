@@ -1,9 +1,5 @@
+import { FormValues } from "@/lib/types";
 import emailjs from "@emailjs/browser";
-
-type FormValues = {
-  email: string;
-  message: string;
-};
 
 export const emailSubmit = async (details: FormValues) => {
   try {

@@ -6,13 +6,9 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
+import { TItem } from "@/lib/types";
 import { ChevronDown } from "lucide-react";
 import Link from "next/link";
-
-type TItem = {
-  name: string;
-  link: string;
-};
 
 const NavDropdown = ({ button, items }: { button: string; items: TItem[] }) => {
   return (

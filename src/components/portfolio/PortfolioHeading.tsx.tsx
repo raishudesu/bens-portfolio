@@ -1,15 +1,7 @@
 import Image, { StaticImageData } from "next/image";
 import React, { JSXElementConstructor, ReactElement } from "react";
 import { Button } from "@/components/ui/button";
-
-type THeading = {
-  author: string;
-  image: StaticImageData;
-  role: string;
-  bio: string;
-  about: string;
-  cv: string | undefined;
-};
+import { THeading } from "@/lib/types";
 
 const PortfolioHeading = ({
   author,

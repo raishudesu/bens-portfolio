@@ -1,12 +1,6 @@
-const ContentHeader = ({
-  title,
-  author,
-  lastUpdated,
-}: {
-  title: string;
-  author: string;
-  lastUpdated: string;
-}) => {
+import { TContentHeader } from "@/lib/types";
+
+const ContentHeader = ({ title, author, lastUpdated }: TContentHeader) => {
   return (
     <>
       <h2 className="mt-10 scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight transition-colors first:mt-0">

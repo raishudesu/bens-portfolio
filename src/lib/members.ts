@@ -54,3 +54,41 @@ export const studies = [
     cv: "/ravencv.pdf",
   },
 ];
+
+export const membersNav = [
+  {
+    name: "Barysh Nikov Bacaltos",
+    link: "/barysh",
+  },
+  {
+    name: "Justine Luis Elorde",
+    link: "/justine",
+  },
+  {
+    name: "Ric Ryan Nolasco",
+    link: "/ric",
+  },
+  {
+    name: "Raven Salvatierra",
+    link: "/raven",
+  },
+];
+
+export const studiesNav = [
+  {
+    name: "SITEX",
+    link: "/barysh/case-study",
+  },
+  {
+    name: "Dentabook",
+    link: "/justine/case-study",
+  },
+  {
+    name: "V-Companion",
+    link: "/ric/case-study",
+  },
+  {
+    name: "Coursecrafters",
+    link: "/raven/case-study",
+  },
+];

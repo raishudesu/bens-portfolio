@@ -9,21 +9,12 @@ import {
   CardHeader,
   CardTitle,
 } from "../ui/card";
-import Image, { StaticImageData } from "next/image";
+import Image from "next/image";
 import { Button } from "../ui/button";
 import { useRouter } from "next/navigation";
+import { TMyCard } from "@/lib/types";
 
-const MyCard = ({
-  author,
-  image,
-  link,
-  role,
-}: {
-  author: string;
-  image: StaticImageData;
-  link: string;
-  role: string;
-}) => {
+const MyCard = ({ author, image, link, role }: TMyCard) => {
   const router = useRouter();
   return (
     <Card className="w-full max-w-[600px]">
