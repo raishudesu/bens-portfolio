@@ -1,9 +1,9 @@
-import ContentHeader from "@/components/ContentHeader";
+import ContentHeader from "@/components/portfolio/ContentHeader";
 import PageWrapper from "@/components/PageWrapper";
 import { header, statementContent, summaryContent } from "../components/data";
 import Mapping from "./components/Mapping";
-import ProjectSummary from "@/components/ProjectSummary";
-import ProblemStatement from "@/components/ProblemStatement";
+import ProjectSummary from "@/components/portfolio/ProjectSummary";
+import ProblemStatement from "@/components/portfolio/ProblemStatement";
 import Design from "./components/Design";
 import UserFlow from "@/components/portfolio/UserFlow";
 import Visual from "./components/Visual";

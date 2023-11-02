@@ -1,6 +1,6 @@
 import Image from "next/image";
+import contact from "../../assets/contact.svg";
 import ContactForm from "./ContactForm";
-import contact from "../assets/contact.svg";
 
 const Contacts = () => {
   return (

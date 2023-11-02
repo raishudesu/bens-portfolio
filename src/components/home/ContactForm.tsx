@@ -15,9 +15,9 @@ import {
   FormMessage,
 } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
-import { Textarea } from "./ui/textarea";
+import { Textarea } from "../ui/textarea";
 import { emailSubmit } from "@/stores/useEmail";
-import { toast } from "./ui/use-toast";
+import { toast } from "../ui/use-toast";
 import { Loader } from "lucide-react";
 
 const formSchema = z.object({

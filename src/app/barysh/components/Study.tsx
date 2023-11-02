@@ -1,6 +1,6 @@
 "use client";
 
-import ProjectSummary from "@/components/ProjectSummary";
+import ProjectSummary from "@/components/portfolio/ProjectSummary";
 import React from "react";
 import { summaryContent } from "./data";
 import { Button } from "@/components/ui/button";

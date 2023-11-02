@@ -1,7 +1,7 @@
-import Contacts from "@/components/Contacts";
-import Hero from "@/components/Hero";
+import Contacts from "@/components/home/Contacts";
+import Hero from "@/components/home/Hero";
 import PageWrapper from "@/components/PageWrapper";
-import Team from "@/components/Team";
+import Team from "@/components/home/Team";
 
 export default function Home() {
   return (

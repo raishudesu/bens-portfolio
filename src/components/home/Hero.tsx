@@ -1,5 +1,5 @@
 import Image from "next/image";
-import HeroImg from "../assets/hero.svg";
+import HeroImg from "../../assets/hero.svg";
 import HeroBtns from "./HeroBtns";
 
 const Hero = () => {
