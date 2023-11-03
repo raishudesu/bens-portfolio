@@ -11,6 +11,7 @@ import Prototype from "./components/Prototype";
 import { header, statementContent, summaryContent } from "../components/data";
 import userflow from "../../../assets/justine/userflow.jpg";
 import { Metadata } from "next";
+import Results from "./components/Results";
 
 export const metadata: Metadata = {
   title: "Bens | Dentabook",
@@ -32,6 +33,7 @@ const CaseStudyPage = () => {
         <UserFlow src={userflow} />
         <Visual />
         <Prototype />
+        <Results />
       </div>
     </PageWrapper>
   );

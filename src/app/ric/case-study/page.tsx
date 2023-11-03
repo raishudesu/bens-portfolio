@@ -9,6 +9,7 @@ import UserFlow from "./components/UserFlow";
 import Visual from "./components/Visual";
 import Prototype from "./components/Prototype";
 import { Metadata } from "next";
+import Results from "./components/Results";
 
 export const metadata: Metadata = {
   title: "Bens | V-Companion",
@@ -30,6 +31,7 @@ const CaseStudyPage = () => {
         <UserFlow />
         <Visual />
         <Prototype />
+        <Results />
       </div>
     </PageWrapper>
   );

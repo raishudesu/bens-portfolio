@@ -10,6 +10,7 @@ import Visual from "./components/Visual";
 import Prototype from "./components/Prototype";
 import userflow from "../../../assets/raven/userflow.jpg";
 import { Metadata } from "next";
+import Results from "./components/Results";
 
 export const metadata: Metadata = {
   title: "Bens | Coursecrafters",
@@ -31,6 +32,7 @@ const CaseStudyPage = () => {
         <UserFlow src={userflow} />
         <Visual />
         <Prototype />
+        <Results />
       </div>
     </PageWrapper>
   );

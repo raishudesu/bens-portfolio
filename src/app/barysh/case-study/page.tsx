@@ -10,6 +10,7 @@ import Prototype from "./components/Prototype";
 import UserFlow from "@/components/portfolio/UserFlow";
 import userflow from "../../../assets/barysh/userflow.jpg";
 import { Metadata } from "next";
+import Results from "./components/Results";
 
 export const metadata: Metadata = {
   title: "Bens | SITEX",
@@ -31,6 +32,7 @@ const CaseStudyPage = () => {
         <UserFlow src={userflow} />
         <Visual />
         <Prototype />
+        <Results />
       </div>
     </PageWrapper>
   );
