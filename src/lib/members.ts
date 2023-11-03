@@ -10,7 +10,7 @@ export const studies = [
     role: "Full-Stack Developer",
     bio: "A developer with a proven track record of delivering high-quality digital experiences, passionate about collaboration and continuous learning, with a meticulous eye for detail.",
     about:
-      "I'm a passionate developer with a strong commitment to continuous learning. My expertise lies in web development, with a focus on providing smooth user experiences. I excel in collaborative team-based development and consistently strive for the best outcomes of my development processes. My primary framework is Next.js, and I am proficient in building robust applications within the React ecosystem. To support my development processes, I utilize essential tools and libraries, including Git, GitHub, and Shadcn UI.",
+      "I'm a passionate developer with a strong commitment in continuous learning. My expertise lies in web development, with a focus on providing smooth user experiences. I excel in collaborative team-based development and consistently strive for the best outcomes of my development processes. My primary framework is Next.js, and I am proficient in building robust applications within the React ecosystem. To support my development processes, I utilize essential tools and libraries, including Git, GitHub, and Shadcn UI.",
     image: Barysh,
     link: "/barysh",
     study: "/barysh/case-study",
