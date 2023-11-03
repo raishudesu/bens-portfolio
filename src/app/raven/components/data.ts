@@ -6,7 +6,7 @@ import quiz from "../../../assets/raven/quiz.jpg";
 export const header = {
   title: "Coursecrafters: A Quest for Knowledge",
   author: "Raven Salvatierra",
-  lastUpdated: "11/03/2023",
+  lastUpdated: "03/11/2023",
 };
 
 export const summaryContent =
