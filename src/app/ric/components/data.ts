@@ -2,7 +2,7 @@ export const solutions = [
   {
     design: "V-Companion Educational Modules",
     solution:
-      "Develop a series of interactive educational modules within the V-Companion chatbot to inform IT students at Palawan State University about common mental health issues, their symptoms, and the importance of seeking help. These modules will provide a convenient and accessible way for students to learn about mental health at their own pace.",
+      "Develop a series of interactive educational modules within the V-Companion chatbot to inform IT students about common mental health issues, their symptoms, and the importance of seeking help. These modules will provide a convenient and accessible way for students to learn about mental health at their own pace.",
   },
   {
     design: "Communication on demand",
@@ -74,13 +74,13 @@ export const design = [
 
 export const header = {
   title:
-    "V-Companion: A Mental Health Support Chatbot for Information Technology Student in Palawan State University",
+    "V-Companion: A Mental Health Support Chatbot for Information Technology Students",
   author: "Ric Ryan Nolasco",
-  lastUpdated: "28/10/2023",
+  lastUpdated: "03/11/2023",
 };
 
 export const summaryContent =
-  "This project aims to address mental health challenges among IT students by providing an accessible AI-driven chatbot. It seeks to enhance well-being and academic performance at Palawan State University by offering students a reliable and confidential platform for support and guidance, fostering mentally balanced and resilient individuals.";
+  "This project aims to address mental health challenges among IT students by providing an accessible AI-driven chatbot. It seeks to enhance well-being and academic performance by offering students a reliable and confidential platform for support and guidance, fostering mentally balanced and resilient individuals.";
 
 export const statementContent =
-  "The observed issues among IT students at Palawan State University pertain to their mental health and well-being. These problems are rooted in high stress levels, stemming from academic workloads, deadlines, personal life pressures, and unhealthy lifestyles, resulting in increased stress and anxiety. Additionally, a lack of awareness concerning their mental challenges leads some students to engage in destructive behaviors like addiction. Furthermore, limited access to professional mental health support due to financial constraints, reluctance to seek help, and the associated stigma further impedes IT students from accessing essential counseling and mental health services.";
+  "The observed issues among IT students pertain to their mental health and well-being. These problems are rooted in high stress levels, stemming from academic workloads, deadlines, personal life pressures, and unhealthy lifestyles, resulting in increased stress and anxiety. Additionally, a lack of awareness concerning their mental challenges leads some students to engage in destructive behaviors like addiction. Furthermore, limited access to professional mental health support due to financial constraints, reluctance to seek help, and the associated stigma further impedes IT students from accessing essential counseling and mental health services.";

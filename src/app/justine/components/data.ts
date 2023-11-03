@@ -38,13 +38,13 @@ export const solutions = [
 export const header = {
   title: "DentaBook: A Digital Dental Appointment Solution",
   author: " Justine Elorde",
-  lastUpdated: "28/10/2023",
+  lastUpdated: "03/11/2023",
 };
 
 export const summaryContent =
-  "This project centers on the creation of a digital dental appointment solution aimed at streamlining the process of booking dental appointments for students at Palawan State University. The existing manual appointment system often leads to extended waiting times and uncertainty about appointment availability, causing inconvenience for students. This project was developed to address these challenges, making it easy for students to schedule dental appointments online. The primary objective is to enhance the overall dental care experience for PSU students while improving the operational efficiency of the dental clinic. Through this project, I sought to provide a user-friendly solution that simplifies clinic visits and optimizes appointment management.";
+  "This project centers on the creation of a digital dental appointment solution aimed at streamlining the process of booking dental appointments for university dental clinics. The existing manual appointment system often leads to extended waiting times and uncertainty about appointment availability, causing inconvenience for students. This project was developed to address these challenges, making it easy for students to schedule dental appointments online. The primary objective is to enhance the overall dental care experience for university students while improving the operational efficiency of the dental clinic. Through this project, I sought to provide a user-friendly solution that simplifies clinic visits and optimizes appointment management.";
 export const statementContent =
-  "The Palawan State University Dental Clinic currently operates on a first-come, first-served basis for student dental appointments, resulting in extended waiting times, uncertainty, and inefficiency. This approach hinders accessibility for students with varying schedules and has led to a preference among students for an online appointment system. Implementing such a system is expected to streamline the booking process, reduce physical queuing, and improve the overall clinic experience for students, making dental care more convenient and secure.";
+  "Most of the university dental clinics operate on a first-come, first-served basis for student dental appointments, resulting in extended waiting times, uncertainty, and inefficiency. This approach hinders accessibility for students with varying schedules and has led to a preference among students for an online appointment system. Implementing such a system is expected to streamline the booking process, reduce physical queuing, and improve the overall clinic experience for students, making dental care more convenient and secure.";
 
 export const snapshots = [
   {

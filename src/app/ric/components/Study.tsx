@@ -15,7 +15,7 @@ const Study = () => {
       </h2>
       <h3 className="scroll-m-20 text-2xl font-semibold tracking-tight mt-6">
         V-Companion: A Mental Health Support Chatbot for Information Technology
-        Student in Palawan State University
+        Students
       </h3>
       <ProjectSummary content={summaryContent} />
       <Button

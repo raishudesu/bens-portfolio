@@ -99,14 +99,14 @@ export const themes = [
 export const header = {
   title: "SITE Experience (SITEX): AI Enhanced Community Learning Platform",
   author: "Barysh Nikov Bacaltos",
-  lastUpdated: "28/10/2023",
+  lastUpdated: "11/03/2023",
 };
 
 export const summaryContent =
-  "The project's primary goal is to create a student community that fosters collaboration and support. Inspired by my college experience, where many IT students lacked direction, SITEX is a unified platform, drawing inspiration from platforms like Dev Community, GitHub, StackOverflow, and ChatGPT. It offers features like digital learning materials, Q&A forums, knowledge sharing, and an AI chatbot to enhance learning and collaboration in various IT fields.";
+  "The project's primary goal is to create a student community that fosters collaboration and support. Inspired by my college experience, where many technological students lacked direction, SITEX is a unified platform, drawing inspiration from platforms like Dev Community, GitHub, StackOverflow, and ChatGPT. It offers features like digital learning materials, Q&A forums, knowledge sharing, and an AI chatbot to enhance learning and collaboration in technological fields.";
 
 export const statementContent =
-  "The project is inspired by a prevalent issue in the IT student community, where students often lack a clear focus within the field due to a lack of collaborative opportunities and difficulties in finding suitable online learning resources. This lack of direction leads to disinterest and fatigue in their academic programs, hindering their education and career development.";
+  "The project is inspired by a prevalent issue in the student community, where students often lack a clear focus within the field due to a lack of collaborative opportunities and difficulties in finding suitable online learning resources. This lack of direction leads to disinterest and fatigue in their academic programs, hindering their education and career development.";
 
 export const projects = [
   {
