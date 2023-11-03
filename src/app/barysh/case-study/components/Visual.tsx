@@ -10,10 +10,11 @@ const Visual = () => {
       </h3>
       <p className="leading-7 [&:not(:first-child)]:mt-6">
         The primary color of the user interface is #16BC25 which is a green
-        color. This resembles the color used in the logo of SITE organization.
-        The atom represents the fundamental building block of the digital
-        universe and symbolizes the core elements of information technology that
-        drive our community&apos;s passion and curiosity.
+        color. This resembles the color used in the logo of PSU-SITE
+        organization, which I am a member. The atom represents the fundamental
+        building block of the digital universe and symbolizes the core elements
+        of information technology that drive our community&apos;s passion and
+        curiosity.
       </p>
       <figure className="flex flex-col items-center mt-6">
         <Image

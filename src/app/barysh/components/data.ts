@@ -28,32 +28,37 @@ export const libraries = [
   {
     library: "Authentication",
     content:
-      "We have implemented user authentication using Next-Auth, which provides a secure and customizable authentication solution, making user management hassle-free.",
+      "I have implemented user authentication using Next-Auth, which provides a secure and customizable authentication solution, making user management hassle-free.",
   },
   {
     library: "Database",
     content:
-      "Our application relies on MongoDB Atlas, a reliable cloud-based database, ensuring scalability, flexibility, and high data security.",
+      "My application relies on MongoDB Atlas, a reliable cloud-based database, ensuring scalability, flexibility, and high data security.",
   },
   {
     library: "Firebase Storage",
     content:
-      "We utilize Firebase Storage for storing and managing learning materials, providing a secure and scalable solution for easy access to educational resources.",
+      "I utilize Firebase Storage for storing and managing learning materials, providing a secure and scalable solution for easy access to educational resources.",
   },
   {
     library: "ODM (Object Data Modeling)",
     content:
-      "We use Mongoose, an ODM library for MongoDB, to simplify database interactions and schema management, enhancing the efficiency of our application.",
+      "I use Mongoose, an ODM library for MongoDB, to simplify database interactions and schema management, enhancing the efficiency of our application.",
   },
   {
-    library: "Validation",
+    library: "Form Validation",
     content:
-      "For form validation, we utilize React Hook Form and Zod, ensuring that user inputs are accurate and secure.",
+      "For form validation, I utilize React Hook Form and Zod, ensuring that user inputs are accurate and secure.",
+  },
+  {
+    library: "Data Validation",
+    content:
+      "For data validation, I maximize the usage of Typescript and Zod for layers of validation in client and server codebases.",
   },
   {
     library: "Server Requests",
     content:
-      "To manage server requests efficiently, we incorporate React Query and Fetch, optimizing data retrieval and updates.",
+      "To manage server requests efficiently, I incorporate React Query and Fetch, optimizing data retrieval and updates.",
   },
   {
     library: "State Management",
@@ -63,27 +68,32 @@ export const libraries = [
   {
     library: "Text Editor",
     content:
-      "Our web app features a user-friendly text editor powered by React Quill, offering rich text editing capabilities.",
+      "My web app features a user-friendly text editor powered by React Quill, offering rich text editing capabilities.",
   },
   {
     library: "Encryption",
     content:
-      "Security is a priority, and we employ BcryptJS to hash and encrypt sensitive data, providing a robust security layer.",
+      "Security is a priority, and I employ BcryptJS to hash and encrypt sensitive data, providing a robust security layer.",
   },
   {
     library: "PDF Viewer",
     content:
-      "We've integrated pdf-viewer-reactjs to allow users to seamlessly view and interact with PDF documents.",
+      "I have integrated pdf-viewer-reactjs to allow users to seamlessly view and interact with PDF documents.",
   },
   {
     library: "Date Parsing",
     content:
-      "For date handling, we've chosen Luxon, which simplifies date and time manipulation, enhancing the application's usability.",
+      "For date handling, I have chosen Luxon, which simplifies date and time manipulation, enhancing the application's usability.",
   },
   {
     library: "OpenAI API",
     content:
-      "We also utilize the OpenAI API for specific functionality, enhancing the capabilities of our application.",
+      "I also utilize the OpenAI API for specific functionality, enhancing the capabilities of our application.",
+  },
+  {
+    library: "Hosting",
+    content:
+      "The prototype is hosted via Vercel, and the planned deployment of the actual web application will be in Amazon Web Services (AWS).",
   },
 ];
 
@@ -92,7 +102,7 @@ export const features = ["Blogs", "Forums", "Materials", "AI Chat"];
 export const themes = [
   "Custom themes (light and dark)",
   " All of the features of SITEX are seen at the navigation, which addresses the pain points of the problem by learning through collaboration, viewing materials, open forums and AI assistance",
-  "By default, non-signed in users can view the Blogs and Forums page, but will not able to interact with it such as commenting and liking the content unless they register and sign in. The primary button “Get started” brings the user to the registration page, so that they can start using the full features of the application.",
+  "By default, non-signed in users can only preview Blogs, Forums, and Material sections, but will be not able to interact with it such as commenting and liking the content unless they register and sign in. Additionally, AI Assistance is exclusive for signed in users.",
   "After signing in, the user will be redirected to user dashboard. Users can create blogs, post forums, upload pdf materials, use the AI Assistant and start collaborating with other users.",
 ];
 
@@ -103,10 +113,10 @@ export const header = {
 };
 
 export const summaryContent =
-  "The project's primary goal is to create a student community that fosters collaboration and support. Inspired by my college experience, where many technological students lacked direction, SITEX is a unified platform, drawing inspiration from platforms like Dev Community, GitHub, StackOverflow, and ChatGPT. It offers features like digital learning materials, Q&A forums, knowledge sharing, and an AI chatbot to enhance learning and collaboration in technological fields.";
+  "The project's primary goal is to create a student community that fosters collaboration and support. Inspired by my college experience, where many technological students lacked direction, SITEX is a unified platform, drawing inspiration from platforms like Dev Community, GitHub, StackOverflow, and ChatGPT. It offers features like digital learning materials, Q&A forums, knowledge sharing, and an AI Assistant to enhance learning and collaboration in technological fields.";
 
 export const statementContent =
-  "The project is inspired by a prevalent issue in the student community, where students often lack a clear focus within the field due to a lack of collaborative opportunities and difficulties in finding suitable online learning resources. This lack of direction leads to disinterest and fatigue in their academic programs, hindering their education and career development.";
+  "The project is inspired by a common issue in the student community, where students often lack a clear focus within their technological field due to a lack of collaborative opportunities and difficulties in finding suitable online learning resources. This lack of direction leads to disinterest and fatigue in their academic programs, hindering their education and career development.";
 
 export const projects = [
   {
