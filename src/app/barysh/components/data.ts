@@ -109,7 +109,7 @@ export const themes = [
 export const header = {
   title: "SITE Experience (SITEX): AI Enhanced Community Learning Platform",
   author: "Barysh Nikov Bacaltos",
-  lastUpdated: "11/03/2023",
+  lastUpdated: "03/11/2023",
 };
 
 export const summaryContent =
