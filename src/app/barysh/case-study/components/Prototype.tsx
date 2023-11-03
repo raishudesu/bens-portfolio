@@ -9,10 +9,10 @@ const Prototype = () => {
         Prototype
       </h3>
       <p className="leading-7 [&:not(:first-child)]:mt-6">
-        Our web application is a dynamic and responsive platform built using
-        Next.js and Shadcn UI, offering a seamless user experience. We have
-        carefully selected a range of libraries and technologies to ensure that
-        our application is robust, secure, and user-friendly.
+        SITEX is a dynamic and responsive web-based platform built using Next.js
+        and Shadcn UI, offering a seamless user experience. I have carefully
+        selected a range of libraries and technologies to ensure that this
+        application is robust, secure, and user-friendly.
       </p>
       <h4 className="scroll-m-20 text-xl font-semibold tracking-tight mt-3">
         Features
