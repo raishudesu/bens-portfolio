@@ -25,17 +25,21 @@ export const snapshots = [
   {
     image: home,
     caption: "Login form",
+    alt: "login-page",
   },
   {
     image: course,
     caption: "Course selection",
+    alt: "course-selection",
   },
   {
     image: diff,
     caption: "Difficulty selection",
+    alt: "difficulty-selection",
   },
   {
     image: quiz,
     caption: "Quiz game",
+    alt: "quiz-game-demo",
   },
 ];

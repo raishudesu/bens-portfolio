@@ -1,5 +1,9 @@
 import reverie from "../../../assets/barysh/reverie.jpg";
 import quillify from "../../../assets/barysh/quillify.jpg";
+import home from "../../../assets/barysh/homepage.jpg";
+import signin from "../../../assets/barysh/signin.jpg";
+import register from "../../../assets/barysh/register.jpg";
+import dashboard from "../../../assets/barysh/dashboard.jpg";
 
 export const solutions = [
   {
@@ -153,5 +157,28 @@ export const links = [
   {
     name: "Website",
     link: "https://baryshnikov.vercel.app",
+  },
+];
+
+export const snapshots = [
+  {
+    image: home,
+    caption: "Hompage",
+    alt: "homepage",
+  },
+  {
+    image: dashboard,
+    caption: "Dashboard",
+    alt: "dashboard",
+  },
+  {
+    image: signin,
+    caption: "Sign in page",
+    alt: "signin-page",
+  },
+  {
+    image: register,
+    caption: "Register page",
+    alt: "register-page",
   },
 ];

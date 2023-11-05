@@ -3,7 +3,7 @@ import { snapshots } from "../../components/data";
 
 const Snapshot = () => {
   return (
-    <div className="flex flex-col gap-6 mt-3">
+    <div className="grid md:grid-cols-2 gap-6 mt-3">
       {snapshots.map(({ image, caption }, index) => (
         <figure key={index} className="flex flex-col items-center">
           <Image

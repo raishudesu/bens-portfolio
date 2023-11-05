@@ -49,34 +49,42 @@ export const statementContent =
 export const snapshots = [
   {
     image: home,
-    caption: "Login form",
+    caption: "Login page",
+    alt: "login-page",
   },
   {
     image: record,
     caption: "Record form",
+    alt: "record-form",
   },
   {
     image: appointment,
     caption: "Appointment form",
+    alt: "appointment-form",
   },
   {
     image: confirmation,
     caption: "Appointment confirmation",
+    alt: "appointment-confirmation",
   },
   {
     image: reminder,
     caption: "Reminder notification",
+    alt: "reminder-notification",
   },
   {
     image: about,
     caption: "About page",
+    alt: "about-page",
   },
   {
     image: members,
     caption: "Dentabook members",
+    alt: "dentabook-members",
   },
   {
     image: faq,
     caption: "FAQs",
+    alt: "faqs",
   },
 ];
