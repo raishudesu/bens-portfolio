@@ -38,7 +38,7 @@ const Prototype = () => {
       </h4>
 
       <p className="leading-7 [&:not(:first-child)]:mt-6">
-        The live prototype offers pre-registration and its over-all visual
+        The live prototype offers pre-registration and its overall visual
         user-interface design. Test it here: {""}
         <Link
           href={"https://site-learn-git-test-raishudesu.vercel.app"}
