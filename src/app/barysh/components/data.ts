@@ -140,3 +140,18 @@ export const projects = [
     },
   },
 ];
+
+export const links = [
+  {
+    name: "Github",
+    link: "https://github.com/raishudesu",
+  },
+  {
+    name: "Upwork",
+    link: "https://www.upwork.com/freelancers/~01f820ee60c225abf9",
+  },
+  {
+    name: "Website",
+    link: "https://baryshnikov.vercel.app",
+  },
+];

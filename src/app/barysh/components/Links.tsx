@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { links } from "./data";
 
 const Links = () => {
   return (
@@ -7,24 +8,17 @@ const Links = () => {
         Links
       </h3>
       <ul className=" ml-6 list-disc [&>li]:mt-2">
-        <li>
-          <Link
-            href={"https://github.com/raishudesu"}
-            target="_blank"
-            className="text-blue-500 hover:underline"
-          >
-            Github
-          </Link>
-        </li>
-        <li>
-          <Link
-            href={"https://www.upwork.com/freelancers/~01f820ee60c225abf9"}
-            target="_blank"
-            className="text-blue-500 hover:underline"
-          >
-            Upwork
-          </Link>
-        </li>
+        {links.map(({ name, link }, index) => (
+          <li key={index}>
+            <Link
+              href={link}
+              target="_blank"
+              className="text-blue-500 hover:underline"
+            >
+              {name}
+            </Link>
+          </li>
+        ))}
       </ul>
     </>
   );
