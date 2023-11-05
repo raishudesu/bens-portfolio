@@ -18,7 +18,7 @@ export const metadata: Metadata = {
 const CaseStudyPage = () => {
   return (
     <PageWrapper>
-      <div className="max-w-screen-lg">
+      <article className="max-w-screen-lg">
         <ContentHeader
           title={header.title}
           author={header.author}
@@ -32,7 +32,7 @@ const CaseStudyPage = () => {
         <Visual />
         <Prototype />
         <Results />
-      </div>
+      </article>
     </PageWrapper>
   );
 };
