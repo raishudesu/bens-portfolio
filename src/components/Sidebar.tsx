@@ -13,8 +13,8 @@ import { ModeToggle } from "./ModeToggle";
 import NavDropdown from "./NavDropdown";
 import SideNavMenu from "./SideNavMenu";
 import { membersNav, studiesNav } from "@/lib/members";
-import StudyNav from "./StudyNav";
 import { Separator } from "./ui/separator";
+import ShowNavContent from "./ShowNavContent";
 
 const Sidebar = () => {
   return (
@@ -36,11 +36,7 @@ const Sidebar = () => {
           <SideNavMenu />
           <NavDropdown button="Portfolios" items={membersNav} />
           <NavDropdown button="Case studies" items={studiesNav} />
-          <div className="flex flex-col gap-4">
-            <Separator />
-            <StudyNav />
-            <Separator />
-          </div>
+          <ShowNavContent />
           <div className="ml-4">
             <ModeToggle />
           </div>
