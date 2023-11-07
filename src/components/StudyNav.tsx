@@ -14,14 +14,13 @@ const StudyNav = () => {
     pathname === "/raven"
   )
     return null;
+
   return (
     <>
-      <Separator />
       <h4 className="ml-4 scroll-m-20 text-xl font-semibold tracking-tight">
         Contents
       </h4>
       <NavContent />
-      <Separator />
     </>
   );
 };

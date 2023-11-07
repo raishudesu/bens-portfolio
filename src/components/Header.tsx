@@ -7,7 +7,7 @@ import atom from "../assets/atom.svg";
 
 const Header = () => {
   return (
-    <header className="fixed px-6 bg-background w-full flex justify-center shadow-md dark:shadow-slate-900">
+    <header className="z-50 fixed px-6 backdrop-blur-xl w-full flex justify-center shadow-md dark:shadow-slate-900">
       <div className="w-full max-w-screen-xl flex gap-3 md:justify-between  items-center h-16">
         <div className="md:hidden">
           <Sidebar />

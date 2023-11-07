@@ -54,7 +54,7 @@ const scrollTo = (id: string) => {
 
 const NavContent = () => {
   return (
-    <NavigationMenu>
+    <NavigationMenu className="">
       <NavigationMenuList className="flex flex-col items-start">
         {contents.map(({ content, id }, index) => (
           <NavigationMenuItem key={index}>

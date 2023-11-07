@@ -12,6 +12,7 @@ import { header, statementContent, summaryContent } from "../components/data";
 import userflow from "../../../assets/justine/userflow.jpg";
 import { Metadata } from "next";
 import Results from "./components/Results";
+import StudyNav from "@/components/StudyNav";
 
 export const metadata: Metadata = {
   title: "Bens | Dentabook",
@@ -20,21 +21,26 @@ export const metadata: Metadata = {
 const CaseStudyPage = () => {
   return (
     <PageWrapper>
-      <article className="max-w-screen-lg">
-        <ContentHeader
-          title={header.title}
-          author={header.author}
-          lastUpdated={header.lastUpdated}
-        />
-        <ProjectSummary content={summaryContent} />
-        <ProblemStatement content={statementContent} />
-        <Mapping />
-        <Design />
-        <UserFlow src={userflow} />
-        <Visual />
-        <Prototype />
-        <Results />
-      </article>
+      <div className="max-w-screen-xl flex items-start gap-6">
+        <aside className="hidden md:flex flex-col gap-4">
+          <StudyNav />
+        </aside>
+        <article>
+          <ContentHeader
+            title={header.title}
+            author={header.author}
+            lastUpdated={header.lastUpdated}
+          />
+          <ProjectSummary content={summaryContent} />
+          <ProblemStatement content={statementContent} />
+          <Mapping />
+          <Design />
+          <UserFlow src={userflow} />
+          <Visual />
+          <Prototype />
+          <Results />
+        </article>
+      </div>
     </PageWrapper>
   );
 };
