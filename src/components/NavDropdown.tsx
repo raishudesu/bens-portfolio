@@ -22,7 +22,9 @@ const NavDropdown = ({ button, items }: { button: string; items: TItem[] }) => {
         <DropdownMenuGroup className="flex flex-col">
           {items.map(({ name, link }, index) => (
             <DropdownMenuItem key={index}>
-              <Link href={link}>{name}</Link>
+              <Link href={link} className="w-full">
+                {name}
+              </Link>
             </DropdownMenuItem>
           ))}
         </DropdownMenuGroup>
