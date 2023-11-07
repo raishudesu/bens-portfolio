@@ -12,6 +12,7 @@ import userflow from "../../../assets/barysh/userflow.jpg";
 import { Metadata } from "next";
 import Results from "./components/Results";
 import StudyNav from "@/components/StudyNav";
+import { Separator } from "@/components/ui/separator";
 
 export const metadata: Metadata = {
   title: "Bens | SITEX",
@@ -23,6 +24,7 @@ const CaseStudyPage = () => {
       <div className="max-w-screen-xl flex items-start gap-6">
         <aside className="hidden md:flex flex-col gap-4">
           <StudyNav />
+          <Separator />
         </aside>
         <article>
           <ContentHeader

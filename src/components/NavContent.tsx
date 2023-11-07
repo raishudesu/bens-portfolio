@@ -3,9 +3,11 @@
 import React from "react";
 import {
   NavigationMenu,
+  NavigationMenuContent,
   NavigationMenuItem,
   NavigationMenuLink,
   NavigationMenuList,
+  NavigationMenuTrigger,
   navigationMenuTriggerStyle,
 } from "./ui/navigation-menu";
 import { cn } from "@/lib/utils";
@@ -54,8 +56,8 @@ const scrollTo = (id: string) => {
 
 const NavContent = () => {
   return (
-    <NavigationMenu className="">
-      <NavigationMenuList className="flex flex-col items-start">
+    <NavigationMenu>
+      <ul className="grid">
         {contents.map(({ content, id }, index) => (
           <NavigationMenuItem key={index}>
             <Button variant={"ghost"} onClick={() => scrollTo(id)}>
@@ -63,7 +65,7 @@ const NavContent = () => {
             </Button>
           </NavigationMenuItem>
         ))}
-      </NavigationMenuList>
+      </ul>
     </NavigationMenu>
   );
 };

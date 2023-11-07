@@ -32,11 +32,14 @@ const Sidebar = () => {
           </SheetTitle>
         </SheetHeader>
         <div className="mt-6 flex flex-col justify-center gap-2">
+          <Separator />
           <SideNavMenu />
           <NavDropdown button="Portfolios" items={membersNav} />
           <NavDropdown button="Case studies" items={studiesNav} />
           <div className="flex flex-col gap-4">
+            <Separator />
             <StudyNav />
+            <Separator />
           </div>
           <div className="ml-4">
             <ModeToggle />

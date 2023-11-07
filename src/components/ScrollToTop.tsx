@@ -43,7 +43,6 @@ const ScrollToTop = () => {
       initial="hide"
       animate={controls}
     >
-      <ModeToggle />
       <Button variant={"outline"} className="p-2" onClick={scrollToTop}>
         <ArrowUp color="#2563eb" />
       </Button>
