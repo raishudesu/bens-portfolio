@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 const JustinePage = () => {
   return (
     <PageWrapper>
-      <div className="max-w-screen-lg flex flex-col gap-6">
+      <div className="max-w-screen-xl flex flex-col gap-6">
         <PortfolioHeading
           author={studies[1].author}
           image={studies[1].image}

@@ -12,7 +12,7 @@ const Prev = () => {
 
   return (
     <section className="w-full flex justify-center">
-      <div className="w-full max-w-screen-lg">
+      <div className="w-full max-w-screen-xl">
         <Button
           variant={"outline"}
           className="p-2"

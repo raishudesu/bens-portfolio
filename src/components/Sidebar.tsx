@@ -1,3 +1,5 @@
+"use client";
+
 import { Button } from "@/components/ui/button";
 import {
   Sheet,
@@ -11,6 +13,8 @@ import { ModeToggle } from "./ModeToggle";
 import NavDropdown from "./NavDropdown";
 import SideNavMenu from "./SideNavMenu";
 import { membersNav, studiesNav } from "@/lib/members";
+import StudyNav from "./StudyNav";
+import { Separator } from "./ui/separator";
 
 const Sidebar = () => {
   return (
@@ -20,18 +24,23 @@ const Sidebar = () => {
           <Menu />
         </Button>
       </SheetTrigger>
-      <SheetContent>
+      <SheetContent onCloseAutoFocus={(event) => event.preventDefault()}>
         <SheetHeader>
-          <SheetTitle className="flex gap-1 justify-center">
+          <SheetTitle className="flex gap-1">
             <Atom color="#2563eb" />
             bens
           </SheetTitle>
         </SheetHeader>
-        <div className="mt-6 flex flex-col justify-center items-center gap-2">
+        <div className="mt-6 flex flex-col justify-center gap-2">
           <SideNavMenu />
           <NavDropdown button="Portfolios" items={membersNav} />
           <NavDropdown button="Case studies" items={studiesNav} />
-          <ModeToggle />
+          <div className="flex flex-col gap-4">
+            <StudyNav />
+          </div>
+          <div className="ml-4">
+            <ModeToggle />
+          </div>
         </div>
       </SheetContent>
     </Sheet>

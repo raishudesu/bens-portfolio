@@ -4,7 +4,10 @@ import mapping from "../../../../assets/ric/mapping.jpg";
 const Mapping = () => {
   return (
     <>
-      <h3 className="scroll-m-20 text-2xl font-semibold tracking-tight mt-6">
+      <h3
+        id="customer-mapping"
+        className="scroll-m-20 text-2xl font-semibold tracking-tight mt-6"
+      >
         Customer journey mapping
       </h3>
       <figure className="flex flex-col items-center mt-3">

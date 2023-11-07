@@ -3,7 +3,10 @@ import { design, points } from "../../components/data";
 const Visual = () => {
   return (
     <>
-      <h3 className="scroll-m-20 text-2xl font-semibold tracking-tight mt-6">
+      <h3
+        id="visual-design"
+        className="scroll-m-20 text-2xl font-semibold tracking-tight mt-6"
+      >
         Visual UI Design
       </h3>
       <p className="leading-7 [&:not(:first-child)]:mt-6">

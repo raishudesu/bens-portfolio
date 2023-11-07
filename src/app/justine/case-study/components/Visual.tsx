@@ -4,7 +4,10 @@ import Image from "next/image";
 const Visual = () => {
   return (
     <>
-      <h3 className="scroll-m-20 text-2xl font-semibold tracking-tight mt-6">
+      <h3
+        id="visual-design"
+        className="scroll-m-20 text-2xl font-semibold tracking-tight mt-6"
+      >
         Visual UI Design
       </h3>
       <figure className="flex flex-col items-center mt-">

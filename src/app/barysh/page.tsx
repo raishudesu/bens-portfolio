@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 const BaryshPage = () => {
   return (
     <PageWrapper>
-      <div className="max-w-screen-lg flex flex-col gap-6">
+      <div className="max-w-screen-xl flex flex-col gap-6">
         <PortfolioHeading
           author={studies[0].author}
           image={studies[0].image}
