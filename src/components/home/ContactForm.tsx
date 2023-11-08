@@ -45,7 +45,7 @@ const ContactForm = () => {
     <Form {...form}>
       <form
         onSubmit={form.handleSubmit(onSubmit)}
-        className="w-full max-w-[500px] flex flex-col gap-6 shadow-md p-6 rounded-lg mt-6"
+        className="w-full max-w-[500px] flex flex-col gap-6 shadow-md p-6 rounded-lg mt-6 dark:bg-[#1c1917]"
       >
         <FormField
           control={form.control}
@@ -84,7 +84,7 @@ const ContactForm = () => {
         <Button
           type="submit"
           disabled={loading}
-          className="self-stretch md:self-center"
+          className="self-stretch md:self-start"
         >
           {loading ? (
             <div className="animate-spin">
