@@ -24,7 +24,10 @@ const Sidebar = () => {
           <Menu />
         </Button>
       </SheetTrigger>
-      <SheetContent onCloseAutoFocus={(event) => event.preventDefault()}>
+      <SheetContent
+        onCloseAutoFocus={(event) => event.preventDefault()}
+        className="overflow-y-auto"
+      >
         <SheetHeader>
           <SheetTitle className="flex gap-1">
             <Atom color="#2563eb" />
